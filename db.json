@@ -1,4 +1,3 @@
-{
   "products": [
     {
       "id": "p001",
@@ -1099,8 +1098,25 @@
   "stock": "in-stock",
   "rating": 4.7,
   "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"]
+},
+    {
+  "id": "p056",
+  "name": "Dark Chocolate 2",
+  "department": "Snacks",
+  "dietTypes": ["Paleo", "Balanced low-carb"],
+  "medicalConditions": ["Diabetes"],
+  "allergens": [],
+  "calories": 170,
+  "price": 40,
+  "weight": "100g",
+  "description": "Rich, low-sugar dark chocolate with a high cocoa content, perfect for diabetic-friendly and low-carb diets.",
+  "image": "/images/dark-chocolate.jpg",
+  "ingredients": ["Cocoa mass", "Cocoa butter", "Natural sweetener", "Vanilla extract"],
+  "brand": "PureCacao",
+  "stock": "in-stock",
+  "rating": 4.7,
+  "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"]
 }
 
 
   ]
-}
