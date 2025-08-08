@@ -30,42 +30,337 @@
       "phone": "01122334455"
     }
   ],
-  "products": [
+
+    "products": [
     {
       "id": "1",
-      "name": "Organic Almond Milk",
-      "department": "Beverages",
-      "dietTypes": ["Vegan", "Keto"],
-      "medicalConditions": ["Lactose Intolerance"],
-      "allergens": ["Nuts"],
-      "calories": 70,
-      "price": 120,
-      "weight": "1L",
-      "description": "Smooth and creamy almond milk with no added sugars.",
-      "image": "/images/almond-milk.jpg",
-      "ingredients": ["Water", "Organic Almonds", "Salt"],
-      "brand": "NutriPure",
+      "name": "Whole Wheat Sourdough Bread",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["High Cholesterol"],
+      "allergens": ["Gluten"],
+      "calories": 69,
+      "price": 55,
+      "weight": "500g",
+      "description": "Freshly baked whole wheat sourdough with natural fermentation, rich in fiber and great for heart health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685851/sourdough-bread_ftojms.jpg",
+      "ingredients": [
+        "Whole wheat flour",
+        "Water",
+        "Salt",
+        "Yeast",
+        "Sourdough culture"
+      ],
+      "brand": "HealthyHub Bakery",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["vegan", "dairy-free", "sugar-free"]
+      "tags": ["artisan", "fermented", "high-fiber"]
     },
     {
       "id": "2",
       "name": "Gluten-Free Oatmeal",
-      "department": "Dry food",
+      "category": "Whole Grains & Cereals",
       "dietTypes": ["Plant-Based", "Paleo"],
       "medicalConditions": ["Celiac Disease"],
       "allergens": [],
       "calories": 150,
-      "price": 200,
+      "price": 78,
       "weight": "400g",
-      "description": "Hearty gluten-free, paleo-friendly oatmeal for a clean breakfast.",
-      "image": "/images/gluten-free-oatmeal.jpg",
-      "ingredients": ["Oats (gluten-free)", "Water", "Salt"],
+      "description": "Hearty gluten-free oatmeal made for clean breakfasts and sensitive stomachs.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/gluten-free-oatmeal_pzt5on.jpg",
+      "ingredients": ["Gluten-free oats", "Salt"],
       "brand": "Pure Grains Co",
       "stock": "in-stock",
       "rating": 4.7,
       "tags": ["certified-gf", "breakfast", "quick-prep"]
+    },
+    {
+      "id": "3",
+      "name": "Organic Blueberries",
+      "category": "Fresh Fruits",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": [
+        "Diabetes",
+        "Hypertension",
+        "Iron-Deficiency Anemia"
+      ],
+      "allergens": [],
+      "calories": 57,
+      "price": 85,
+      "weight": "125g",
+      "description": "Fresh organic blueberries, packed with antioxidants and vitamin C.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685838/blueberries_mg8fni.jpg",
+      "ingredients": ["Organic blueberries"],
+      "brand": "Organic Valley",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["organic", "antioxidants", "superfruit"]
+    },
+ 
+    {
+      "id": "4",
+      "name": "Wild Alaskan Salmon Fillet",
+      "category": "Meats & Poultry",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Iron-Deficiency Anemia", "Pregnancy Nutrition"],
+      "allergens": ["Fish"],
+      "calories": 142,
+      "price": 220,
+      "weight": "250g",
+      "description": "Premium wild-caught salmon rich in omega-3 and perfect for pregnancy and anemia support.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685850/salmon-fillet_sabuah.jpg",
+      "ingredients": ["Wild Alaskan salmon"],
+      "brand": "Pacific Fresh",
+      "stock": "in-stock",
+      "rating": 4.9,
+      "tags": ["omega-3", "wild-caught", "premium"]
+    },
+    {
+      "id": "5",
+      "name": "Greek Yogurt Plain",
+      "category": "Dairy Products",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": ["Dairy", "Lactose"],
+      "calories": 59,
+      "price": 40,
+      "weight": "500g",
+      "description": "Thick and creamy Greek yogurt with live probiotics and high protein content.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/greek-yogurt_oonxce.jpg",
+      "ingredients": ["Milk", "Active cultures"],
+      "brand": "Juhayna",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["probiotics", "protein", "creamy"]
+    },
+    {
+      "id": "6",
+      "name": "Brown Rice",
+      "category": "Whole Grains & Cereals",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 111,
+      "price": 48,
+      "weight": "1kg",
+      "description": "High-fiber long grain brown rice, ideal for healthy digestion and sugar control.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685846/brown-rice_cqhjhb.jpg",
+      "ingredients": ["Brown rice"],
+      "brand": "Whole Earth",
+      "stock": "in-stock",
+      "rating": 4.4,
+      "tags": ["whole-grain", "fiber", "versatile"]
+    },
+    {
+      "id": "7",
+      "name": "Vegan Cheese (Lactose-Free)",
+      "category": "Dairy Products",
+      "dietTypes": ["Plant-Based", "Keto-Friendly", "Paleo"],
+      "medicalConditions": ["Lactose Intolerance"],
+      "allergens": ["Tree Nuts"],
+      "calories": 250,
+      "price": 110,
+      "weight": "200g",
+      "description": "Lactose-free vegan cheese alternative made with cashews and coconut oil.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/vegan-cheese_v07qam.jpg",
+      "ingredients": ["Cashews", "Coconut oil", "Salt", "Yeast extract"],
+      "brand": "Plant Pure",
+      "stock": "in-stock",
+      "rating": 4.2,
+      "tags": ["dairy-free", "plant-based", "melts"]
+    },
+    {
+      "id": "8",
+      "name": "Keto Beef Jerky",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Keto-Friendly", "Paleo"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 116,
+      "price": 463,
+      "weight": "150g",
+      "description": "High-protein, low-carb beef jerky snack, perfect for keto diets.",
+      "image":"https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Keto_Beef_Jerky_hz2ahi.jpg",
+      "ingredients": ["Beef", "Salt", "Spices"],
+      "brand": "Keto Kitchen",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["high-protein", "low-carb", "portable"]
+    },
+    {
+      "id": "9",
+      "name": "Balanced Low-Carb Nut Mix",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": [],
+      "allergens": ["Tree Nuts"],
+      "calories": 560,
+      "price": 355,
+      "weight": "250g",
+      "description": "Premium low-carb nut mix for energy and balance.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/balanced-nuts_j2yhug.jpg",
+      "ingredients": ["Almonds", "Pecans", "Macadamia nuts"],
+      "brand": "Balance Nutrition",
+      "stock": "in-stock",
+      "rating": 4.4,
+      "tags": ["balanced", "premium-nuts", "low-carb"]
+    },
+ 
+    {
+      "id": "10",
+      "name": "Low FODMAP Snack Bars",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Low FODMAP"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 150,
+      "price": 246,
+      "weight": "6 × 40g",
+      "description": "Snack bars designed for digestive comfort and low FODMAP diets.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685845/low-fodmap-bars_wj1k9q.jpg",
+      "ingredients": [
+        "Pumpkin seeds",
+        "Sunflower seeds",
+        "Rice syrup",
+        "Brown rice crisp"
+      ],
+      "brand": "FODMAP Friendly",
+      "stock": "in-stock",
+      "rating": 4.0,
+      "tags": ["low-fodmap", "digestive-health", "portable"]
+    },
+    {
+      "id": "11",
+      "name": "Pregnancy Multivitamin Smoothie",
+      "category": "Prepared Diet Meals",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 95,
+      "price": 215,
+      "weight": "350ml",
+      "description": "Smoothie packed with folic acid, iron, and vitamins for expecting mothers.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688140/Pregnancy_Multivitamin_Smoothie_npqzut.jpg",
+      "ingredients": ["Banana", "Orange", "Spinach", "Folic acid supplement"],
+      "brand": "Mama Nutrition",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["pregnancy", "folic-acid", "vitamins"]
+    },
+  
+    {
+      "id": "12",
+      "name": "Quinoa Power Salad",
+      "category": "Prepared Diet Meals",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 185,
+      "price": 432,
+      "weight": "per serving",
+      "description": "Salad with quinoa, greens, and tahini for a fiber-rich meal.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Quinoa_Power_Salad_emalaw.jpg",
+      "ingredients": [
+        "Quinoa",
+        "Lettuce",
+        "Cherry tomatoes",
+        "Cucumber",
+        "Tahini"
+      ],
+      "brand": "Fresh Garden",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["superfood", "complete-protein", "fresh"]
+    },
+    {
+      "id": "13",
+      "name": "Spinach Power Bowl",
+      "category": "Prepared Diet Meals",
+      "dietTypes": ["Plant-Based", "Keto-Friendly"],
+      "medicalConditions": ["Iron-Deficiency Anemia", "Hypertension"],
+      "allergens": [],
+      "calories": 410,
+      "price": 55,
+      "weight": "per serving",
+      "description": "Iron-rich spinach bowl with healthy fats and protein.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Spinach_Power_Bowl_jjrtq6.jpg",
+      "ingredients": [
+        "Spinach",
+        "Quinoa",
+        "Avocado",
+        "Chia seeds",
+        "Olive oil"
+      ],
+      "brand": "NutriFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.9,
+      "tags": ["iron-rich", "complete-meal", "energizing"]
+    },
+    {
+      "id": "14",
+      "name": "Pregnancy Nutrition Bowl",
+      "category": "Prepared Diet Meals",
+      "dietTypes": [],
+      "medicalConditions": ["Pregnancy Nutrition", "Iron-Deficiency Anemia"],
+      "allergens": ["Fish"],
+      "calories": 450,
+      "price": 170,
+      "weight": "per serving",
+      "description": "Meal bowl rich in omega-3, folate and iron for pregnancy health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688140/Nutrition_Bowl_ywmdyt.jpg",
+      "ingredients": ["Salmon", "Sweet potato", "Spinach", "Avocado", "Quinoa"],
+      "brand": "NutriFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"]
+    },
+    {
+      "id": "15",
+      "name": "Low FODMAP Comfort Bowl",
+      "category": "Prepared Diet Meals",
+      "dietTypes": ["Low FODMAP"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 380,
+      "price": 200,
+      "weight": "per serving",
+      "description": "Gentle-on-stomach meal for those following low FODMAP diet.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685847/low-fodmap-bowl_sswqcc.jpg",
+      "ingredients": [
+        "Chicken breast",
+        "White rice",
+        "Carrots",
+        "Green beans",
+        "Ginger"
+      ],
+      "brand": "NutriFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.5,
+      "tags": ["digestive-friendly", "comfort-food", "gentle"]
+    },
+    {
+      "id": "16",
+      "name": "Keto Fat Bomb Bowl",
+      "category": "Prepared Diet Meals",
+      "dietTypes": ["Keto-Friendly"],
+      "medicalConditions": [],
+      "allergens": ["Fish", "Tree Nuts"],
+      "calories": 650,
+      "price": 300,
+      "weight": "per serving",
+      "description": "Keto bowl rich in healthy fats from mackerel, nuts, and avocado.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685845/keto-bowl_p3yn4b.jpg",
+      "ingredients": [
+        "Mackerel",
+        "Avocado",
+        "Mixed nuts",
+        "Olive oil",
+        "Leafy greens"
+      ],
+      "brand": "Healthy Kitchen",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["high-fat", "ketogenic", "premium"]
     }
   ],
   "orders": [
@@ -87,6 +382,81 @@
       "date": "2025-08-07"
     }
   ],
-  "Categories":[]
+  "Categories": [
+  {
+    "id": "1",
+    "name": "Healthy Bakery",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Bakery_uens06.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Whole Grains & Cereals",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Whole_Grains_Cereals_pndauc.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Meats & Poultry",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689360/Meats_Poultry_ys3wbk.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dairy Products",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689356/Dairy_Products_fmeeux.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Fresh Vegetables",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Fresh_Vegetables_bjxn5w.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Fresh Fruits",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Fresh_Fruits_nsjwx5.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Healthy Snacks",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Snacks_i862ok.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Prepared Diet Meals",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Prepared_Diet_Meals_nz5sbc.jpg"
+  }
+],
+
+
+  "DietTypes": [
+    "Plant-Based",
+    "Keto-Friendly",
+    "Low FODMAP",
+    "Balanced Low-Carb",
+    "Paleo",
+    "Vegan",
+    "High-Protein",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+
+  "MedicalConditions": [
+    "Hypertension",
+    "Pregnancy Nutrition",
+    "Diabetes",
+    "Iron-Deficiency Anemia",
+    "Favism",
+    "High Cholesterol"
+  ],
+
+  "Allergens": [
+    "Gluten",
+    "Dairy",
+    "Lactose",
+    "Eggs",
+    "Shellfish",
+    "Tree Nuts",
+    "Peanuts",
+    "Soy",
+    "Sesame"
+  ]
 }
 
