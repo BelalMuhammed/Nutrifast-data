@@ -426,37 +426,37 @@
 ],
 
 
-  "DietTypes": [
-    "Plant-Based",
-    "Keto-Friendly",
-    "Low FODMAP",
-    "Balanced Low-Carb",
-    "Paleo",
-    "Vegan",
-    "High-Protein",
-    "Gluten-Free",
-    "Dairy-Free"
-  ],
+"DietTypes": [
+  { "id": 1, "name": "Plant-Based" },
+  { "id": 2, "name": "Keto-Friendly" },
+  { "id": 3, "name": "Low FODMAP" },
+  { "id": 4, "name": "Balanced Low-Carb" },
+  { "id": 5, "name": "Paleo" },
+  { "id": 6, "name": "Vegan" },
+  { "id": 7, "name": "High-Protein" },
+  { "id": 8, "name": "Gluten-Free" },
+  { "id": 9, "name": "Dairy-Free" }
+],
 
-  "MedicalConditions": [
-    "Hypertension",
-    "Pregnancy Nutrition",
-    "Diabetes",
-    "Iron-Deficiency Anemia",
-    "Favism",
-    "High Cholesterol"
-  ],
+"MedicalConditions": [
+  { "id": 1, "name": "Hypertension" },
+  { "id": 2, "name": "Pregnancy Nutrition" },
+  { "id": 3, "name": "Diabetes" },
+  { "id": 4, "name": "Iron-Deficiency Anemia" },
+  { "id": 5, "name": "Favism" },
+  { "id": 6, "name": "High Cholesterol" }
+],
 
-  "Allergens": [
-    "Gluten",
-    "Dairy",
-    "Lactose",
-    "Eggs",
-    "Shellfish",
-    "Tree Nuts",
-    "Peanuts",
-    "Soy",
-    "Sesame"
-  ]
+"Allergens": [
+  { "id": 1, "name": "Gluten" },
+  { "id": 2, "name": "Dairy" },
+  { "id": 3, "name": "Lactose" },
+  { "id": 4, "name": "Eggs" },
+  { "id": 5, "name": "Shellfish" },
+  { "id": 6, "name": "Tree Nuts" },
+  { "id": 7, "name": "Peanuts" },
+  { "id": 8, "name": "Soy" },
+  { "id": 9, "name": "Sesame" }
+]
 }
 
