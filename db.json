@@ -382,7 +382,9 @@
       "date": "2025-08-07"
     }
   ],
-  "Categories": [
+
+  "filters":{
+      "Categories": [
   {
     "id": "1",
     "name": "Healthy Bakery",
@@ -458,5 +460,77 @@
   { "id": 8, "name": "Soy" },
   { "id": 9, "name": "Sesame" }
 ]
+  },
+
+
+  "vendorRegistrations": [
+    {
+      "id": 1,
+      "businessName": "NutriFresh Foods",
+      "businessType": "Restaurant",
+      "websiteSocialLinks": "https://instagram.com/nutrifresh",
+      "businessAddress": "123 Healthy St, Alexandria, Egypt",
+      "contactDetails": {
+        "fullName": "Ahmed Ali",
+        "email": "ahmed.ali@example.com",
+        "phone": "+201234567890"
+      },
+      "productServiceDetails": {
+        "categories": [
+          "Ready meals",
+          "Packaged healthy snacks"
+        ],
+        "meetsSpecialRequirements": "Yes",
+        "providesNutritionalInfo": "Yes"
+      },
+    "healthcertificatesLink": "",
+      "agreeToTerms": true
+    },
+    {
+      "id": 2,
+      "businessName": "Green Bites",
+      "businessType": "Cafe",
+      "websiteSocialLinks": "https://facebook.com/greenbites",
+      "businessAddress": "45 Vegan Ave, Cairo, Egypt",
+      "contactDetails": {
+        "fullName": "Sara Youssef",
+        "email": "sara.y@example.com",
+        "phone": "+201223344556"
+      },
+      "productServiceDetails": {
+        "categories": [
+          "Beverages",
+          "Supplements"
+        ],
+        "meetsSpecialRequirements": "No",
+        "providesNutritionalInfo": "Yes"
+      },
+      "healthcertificatesLink": "",
+      "agreeToTerms": true
+    },
+    {
+      "id": 3,
+      "businessName": "Healthy Harvest",
+      "businessType": "Grocery Store",
+      "websiteSocialLinks": "https://healthyharvest.com",
+      "businessAddress": "78 Organic Rd, Giza, Egypt",
+      "contactDetails": {
+        "fullName": "Omar Hassan",
+        "email": "omar.h@example.com",
+        "phone": "+201198765432"
+      },
+      "productServiceDetails": {
+        "categories": [
+          "Ready meals",
+          "Beverages",
+          "Other"
+        ],
+        "meetsSpecialRequirements": "Yes",
+        "providesNutritionalInfo": "No"
+      },
+      "healthcertificatesLink": "",
+      "agreeToTerms": true
+    }
+  ]
 }
 
