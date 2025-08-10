@@ -531,6 +531,128 @@
       "healthcertificatesLink": "",
       "agreeToTerms": true
     }
+  ],
+
+  "favoritesProduct":[ 
+    {
+      "id": "1",
+      "name": "Whole Wheat Sourdough Bread",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["High Cholesterol"],
+      "allergens": ["Gluten"],
+      "calories": 69,
+      "price": 55,
+      "weight": "500g",
+      "description": "Freshly baked whole wheat sourdough with natural fermentation, rich in fiber and great for heart health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685851/sourdough-bread_ftojms.jpg",
+      "ingredients": [
+        "Whole wheat flour",
+        "Water",
+        "Salt",
+        "Yeast",
+        "Sourdough culture"
+      ],
+      "brand": "HealthyHub Bakery",
+      "stock": "in-stock",
+      "rating": 4.5,
+      "tags": ["artisan", "fermented", "high-fiber"]
+    },
+    {
+      "id": "2",
+      "name": "Gluten-Free Oatmeal",
+      "category": "Whole Grains & Cereals",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": ["Celiac Disease"],
+      "allergens": [],
+      "calories": 150,
+      "price": 78,
+      "weight": "400g",
+      "description": "Hearty gluten-free oatmeal made for clean breakfasts and sensitive stomachs.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/gluten-free-oatmeal_pzt5on.jpg",
+      "ingredients": ["Gluten-free oats", "Salt"],
+      "brand": "Pure Grains Co",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["certified-gf", "breakfast", "quick-prep"]
+    },
+    {
+      "id": "3",
+      "name": "Organic Blueberries",
+      "category": "Fresh Fruits",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": [
+        "Diabetes",
+        "Hypertension",
+        "Iron-Deficiency Anemia"
+      ],
+      "allergens": [],
+      "calories": 57,
+      "price": 85,
+      "weight": "125g",
+      "description": "Fresh organic blueberries, packed with antioxidants and vitamin C.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685838/blueberries_mg8fni.jpg",
+      "ingredients": ["Organic blueberries"],
+      "brand": "Organic Valley",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["organic", "antioxidants", "superfruit"]
+    },
+ 
+    {
+      "id": "4",
+      "name": "Wild Alaskan Salmon Fillet",
+      "category": "Meats & Poultry",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Iron-Deficiency Anemia", "Pregnancy Nutrition"],
+      "allergens": ["Fish"],
+      "calories": 142,
+      "price": 220,
+      "weight": "250g",
+      "description": "Premium wild-caught salmon rich in omega-3 and perfect for pregnancy and anemia support.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685850/salmon-fillet_sabuah.jpg",
+      "ingredients": ["Wild Alaskan salmon"],
+      "brand": "Pacific Fresh",
+      "stock": "in-stock",
+      "rating": 4.9,
+      "tags": ["omega-3", "wild-caught", "premium"]
+    },
+    {
+      "id": "5",
+      "name": "Greek Yogurt Plain",
+      "category": "Dairy Products",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": ["Dairy", "Lactose"],
+      "calories": 59,
+      "price": 40,
+      "weight": "500g",
+      "description": "Thick and creamy Greek yogurt with live probiotics and high protein content.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/greek-yogurt_oonxce.jpg",
+      "ingredients": ["Milk", "Active cultures"],
+      "brand": "Juhayna",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["probiotics", "protein", "creamy"]
+    },
+    {
+      "id": "6",
+      "name": "Brown Rice",
+      "category": "Whole Grains & Cereals",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 111,
+      "price": 48,
+      "weight": "1kg",
+      "description": "High-fiber long grain brown rice, ideal for healthy digestion and sugar control.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685846/brown-rice_cqhjhb.jpg",
+      "ingredients": ["Brown rice"],
+      "brand": "Whole Earth",
+      "stock": "in-stock",
+      "rating": 4.4,
+      "tags": ["whole-grain", "fiber", "versatile"]
+    }
   ]
 }
 
