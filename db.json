@@ -31,9 +31,9 @@
     }
   ],
 
-    "products": [
+  "products": [
     {
-      "id": "1",
+      "id": "p001",
       "name": "Whole Wheat Sourdough Bread",
       "category": "Healthy Bakery",
       "dietTypes": ["Plant-Based"],
@@ -57,7 +57,7 @@
       "tags": ["artisan", "fermented", "high-fiber"]
     },
     {
-      "id": "2",
+      "id": "p002",
       "name": "Gluten-Free Oatmeal",
       "category": "Whole Grains & Cereals",
       "dietTypes": ["Plant-Based", "Paleo"],
@@ -75,7 +75,7 @@
       "tags": ["certified-gf", "breakfast", "quick-prep"]
     },
     {
-      "id": "3",
+      "id": "p003",
       "name": "Organic Blueberries",
       "category": "Fresh Fruits",
       "dietTypes": ["Plant-Based", "Paleo"],
@@ -96,9 +96,31 @@
       "rating": 4.8,
       "tags": ["organic", "antioxidants", "superfruit"]
     },
- 
     {
-      "id": "4",
+      "id": "p004",
+      "name": "Almond Trail Mix",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Keto-Friendly", "Plant-Based", "Balanced Low-Carb"],
+      "medicalConditions": [],
+      "allergens": ["Tree Nuts"],
+      "calories": 579,
+      "price": 135,
+      "weight": "200g",
+      "description": "A rich mix of almonds, seeds, and cranberries for an energizing snack.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/trail-mix_pzoqsd.jpg",
+      "ingredients": [
+        "Almonds",
+        "Cashews",
+        "Dried cranberries",
+        "Sunflower seeds"
+      ],
+      "brand": "Nature's Mix",
+      "stock": "low-stock",
+      "rating": 4.3,
+      "tags": ["energy", "portable", "raw"]
+    },
+    {
+      "id": "p005",
       "name": "Wild Alaskan Salmon Fillet",
       "category": "Meats & Poultry",
       "dietTypes": ["Paleo"],
@@ -108,7 +130,7 @@
       "price": 220,
       "weight": "250g",
       "description": "Premium wild-caught salmon rich in omega-3 and perfect for pregnancy and anemia support.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685850/salmon-fillet_sabuah.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917323/salmon-5892659_640_menlif.jpg",
       "ingredients": ["Wild Alaskan salmon"],
       "brand": "Pacific Fresh",
       "stock": "in-stock",
@@ -116,7 +138,7 @@
       "tags": ["omega-3", "wild-caught", "premium"]
     },
     {
-      "id": "5",
+      "id": "p006",
       "name": "Greek Yogurt Plain",
       "category": "Dairy Products",
       "dietTypes": ["Paleo"],
@@ -134,7 +156,7 @@
       "tags": ["probiotics", "protein", "creamy"]
     },
     {
-      "id": "6",
+      "id": "p007",
       "name": "Brown Rice",
       "category": "Whole Grains & Cereals",
       "dietTypes": ["Plant-Based"],
@@ -152,7 +174,7 @@
       "tags": ["whole-grain", "fiber", "versatile"]
     },
     {
-      "id": "7",
+      "id": "p008",
       "name": "Vegan Cheese (Lactose-Free)",
       "category": "Dairy Products",
       "dietTypes": ["Plant-Based", "Keto-Friendly", "Paleo"],
@@ -170,7 +192,7 @@
       "tags": ["dairy-free", "plant-based", "melts"]
     },
     {
-      "id": "8",
+      "id": "p009",
       "name": "Keto Beef Jerky",
       "category": "Healthy Snacks",
       "dietTypes": ["Keto-Friendly", "Paleo"],
@@ -180,7 +202,7 @@
       "price": 463,
       "weight": "150g",
       "description": "High-protein, low-carb beef jerky snack, perfect for keto diets.",
-      "image":"https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Keto_Beef_Jerky_hz2ahi.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Keto_Beef_Jerky_hz2ahi.jpg",
       "ingredients": ["Beef", "Salt", "Spices"],
       "brand": "Keto Kitchen",
       "stock": "in-stock",
@@ -188,7 +210,7 @@
       "tags": ["high-protein", "low-carb", "portable"]
     },
     {
-      "id": "9",
+      "id": "p010",
       "name": "Balanced Low-Carb Nut Mix",
       "category": "Healthy Snacks",
       "dietTypes": ["Balanced Low-Carb"],
@@ -205,9 +227,26 @@
       "rating": 4.4,
       "tags": ["balanced", "premium-nuts", "low-carb"]
     },
- 
     {
-      "id": "10",
+      "id": "p011",
+      "name": "Favism-Safe",
+      "category": "Whole Grains & Cereals",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": ["Favism"],
+      "allergens": [],
+      "calories": 130,
+      "price": 132,
+      "weight": "500g",
+      "description": "Naturally favism-safe lentils rich in protein and fiber.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685841/favism-beans_zfrjeb.jpg",
+      "ingredients": ["Lentils"],
+      "brand": "Safe Foods",
+      "stock": "in-stock",
+      "rating": 4.1,
+      "tags": ["favism-safe", "protein", "legumes"]
+    },
+    {
+      "id": "p012",
       "name": "Low FODMAP Snack Bars",
       "category": "Healthy Snacks",
       "dietTypes": ["Low FODMAP"],
@@ -230,9 +269,9 @@
       "tags": ["low-fodmap", "digestive-health", "portable"]
     },
     {
-      "id": "11",
+      "id": "p013",
       "name": "Pregnancy Multivitamin Smoothie",
-      "category": "Prepared Diet Meals",
+      "category": "Frozen Prepared Diet Meals",
       "dietTypes": ["Plant-Based"],
       "medicalConditions": ["Pregnancy Nutrition"],
       "allergens": [],
@@ -247,11 +286,11 @@
       "rating": 4.8,
       "tags": ["pregnancy", "folic-acid", "vitamins"]
     },
-  
+
     {
-      "id": "12",
+      "id": "p015",
       "name": "Quinoa Power Salad",
-      "category": "Prepared Diet Meals",
+      "category": "Fresh Prepared Diet Meals",
       "dietTypes": ["Plant-Based"],
       "medicalConditions": [],
       "allergens": [],
@@ -273,9 +312,9 @@
       "tags": ["superfood", "complete-protein", "fresh"]
     },
     {
-      "id": "13",
+      "id": "m001",
       "name": "Spinach Power Bowl",
-      "category": "Prepared Diet Meals",
+      "category": "Fresh Prepared Diet Meals",
       "dietTypes": ["Plant-Based", "Keto-Friendly"],
       "medicalConditions": ["Iron-Deficiency Anemia", "Hypertension"],
       "allergens": [],
@@ -293,13 +332,13 @@
       ],
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
-      "rating": 4.9,
+      "rating": 4.2,
       "tags": ["iron-rich", "complete-meal", "energizing"]
     },
     {
-      "id": "14",
+      "id": "m002",
       "name": "Pregnancy Nutrition Bowl",
-      "category": "Prepared Diet Meals",
+      "category": "Fresh Prepared Diet Meals",
       "dietTypes": [],
       "medicalConditions": ["Pregnancy Nutrition", "Iron-Deficiency Anemia"],
       "allergens": ["Fish"],
@@ -311,13 +350,13 @@
       "ingredients": ["Salmon", "Sweet potato", "Spinach", "Avocado", "Quinoa"],
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
-      "rating": 4.8,
+      "rating": 3.8,
       "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"]
     },
     {
-      "id": "15",
+      "id": "m003",
       "name": "Low FODMAP Comfort Bowl",
-      "category": "Prepared Diet Meals",
+      "category": "Frozen Prepared Diet Meals",
       "dietTypes": ["Low FODMAP"],
       "medicalConditions": [],
       "allergens": [],
@@ -335,13 +374,13 @@
       ],
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
-      "rating": 4.5,
+      "rating": 3.5,
       "tags": ["digestive-friendly", "comfort-food", "gentle"]
     },
     {
-      "id": "16",
+      "id": "m004",
       "name": "Keto Fat Bomb Bowl",
-      "category": "Prepared Diet Meals",
+      "category": "Fresh Prepared Diet Meals",
       "dietTypes": ["Keto-Friendly"],
       "medicalConditions": [],
       "allergens": ["Fish", "Tree Nuts"],
@@ -361,8 +400,672 @@
       "stock": "in-stock",
       "rating": 4.7,
       "tags": ["high-fat", "ketogenic", "premium"]
+    },
+    {
+      "id": "m006",
+      "name": "Favism Safe Stew",
+      "category": "Frozen Prepared Diet Meals frozen",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["Favism"],
+      "allergens": [],
+      "calories": 280,
+      "price": 80,
+      "weight": "per serving",
+      "description": "A hearty lentil and vegetable stew specially made safe for favism condition.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917387/soup-8021565_640_oujdwj.jpg",
+      "ingredients": ["Lentils", "Carrots", "Celery", "Olive oil"],
+      "brand": "Healthy Kitchen",
+      "stock": "in-stock",
+      "rating": 4.3,
+      "tags": ["favism-safe", "hearty", "comfort-food"]
+    },
+    {
+      "id": "p016",
+      "name": "Multigrain Bread",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": ["Gluten"],
+      "calories": 120,
+      "price": 50,
+      "weight": "400g",
+      "description": "Freshly baked multigrain bread packed with seeds for extra nutrition.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917260/kornspitz-4892543_640_z9zfyl.jpg",
+      "ingredients": [
+        "Whole wheat flour",
+        "Flaxseeds",
+        "Sunflower seeds",
+        "Water",
+        "Yeast"
+      ],
+      "brand": "NutriFast Bakery",
+      "stock": "in-stock",
+      "rating": 4.2,
+      "tags": ["multigrain", "fiber-rich", "seeds"]
+    },
+    {
+      "id": "p017",
+      "name": "Chia Seed Pudding",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 200,
+      "price": 45,
+      "weight": "150g",
+      "description": "Creamy chia pudding with coconut milk, rich in omega-3 and fiber.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917355/chia-pudding_o5kkv7.jpg",
+      "ingredients": [
+        "Chia seeds",
+        "Coconut milk",
+        "Maple syrup",
+        "Mixed berries"
+      ],
+      "brand": "Pure Seeds",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["omega-3", "superfood", "creamy"]
+    },
+    {
+      "id": "p020",
+      "name": "Granola Bar",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Favism"],
+      "allergens": ["Tree Nuts"],
+      "calories": 240,
+      "price": 200,
+      "weight": "350g",
+      "description": "Grain-free paleo granola made with a crunchy mix of nuts and seeds.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/granola-bar_m7kxtu.jpg",
+      "ingredients": ["Almonds", "Sunflower seeds", "Pumpkin seeds", "Honey"],
+      "brand": "Hoda's Bakery",
+      "stock": "in-stock",
+      "rating": 4.1,
+      "tags": ["grain-free", "paleo", "crunchy"]
+    },
+    {
+      "id": "p021",
+      "name": "Beef Steak",
+      "category": "Meats & Poultry",
+      "dietTypes": ["Paleo", "Keto-Friendly"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 300,
+      "price": 300,
+      "weight": "300g",
+      "description": "Premium grass-fed beef steak, rich in protein and flavor.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918791/beef-steak_odaeis.jpg",
+      "ingredients": ["Beef"],
+      "brand": "Prairie Fresh",
+      "stock": "low-stock",
+      "rating": 4.8,
+      "tags": ["grass-fed", "premium", "protein"]
+    },
+    {
+      "id": "p023",
+      "name": "Strawberry Jam (No Sugar)",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 80,
+      "price": 80,
+      "weight": "250g",
+      "description": "Natural strawberry jam with no added sugar, perfect for guilt-free spreads.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685836/strawberry-jam_hrvw2j.jpg",
+      "ingredients": ["Strawberries", "Pectin", "Water"],
+      "brand": "Sweet Nature",
+      "stock": "in-stock",
+      "rating": 4.3,
+      "tags": ["sugar-free", "natural", "spread"]
+    },
+    {
+      "id": "p025",
+      "name": "Peanut Butter",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": [],
+      "allergens": ["Peanuts"],
+      "calories": 588,
+      "price": 277.79,
+      "weight": "350g",
+      "description": "Smooth and creamy peanut butter made from 100% roasted peanuts, perfect for a protein-packed snack.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917437/pexels-tonliendo-11405133_omtkgh.jpg",
+      "ingredients": ["Peanuts"],
+      "brand": "Pure Nuts",
+      "stock": "in-stock",
+      "rating": 4.5,
+      "tags": ["natural", "no-additives", "high-protein"]
+    },
+    {
+      "id": "p027",
+      "name": "Spinach Leaves",
+      "category": "Fresh Vegetables",
+      "dietTypes": ["Plant-Based", "Paleo", "Balanced Low-Carb"],
+      "medicalConditions": ["Iron-Deficiency Anemia"],
+      "allergens": [],
+      "calories": 23,
+      "price": 107,
+      "weight": "200g",
+      "description": "Fresh spinach leaves rich in iron and vitamins, ideal for salads, smoothies, or cooking.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685851/spinach-leaves_sotwtt.jpg",
+      "ingredients": ["Spinach"],
+      "brand": "Fresh Garden",
+      "stock": "in-stock",
+      "rating": 4.4,
+      "tags": ["iron-rich", "fresh", "leafy-greens"]
+    },
+    {
+      "id": "p028",
+      "name": "Sweet Potato Chips",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 150,
+      "price": 185,
+      "weight": "120g",
+      "description": "Crispy baked sweet potato chips seasoned with sea salt for a wholesome snack.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/sweet-potato-chips_jq3e0w.jpg",
+      "ingredients": ["Sweet potato", "Sea salt", "Olive oil"],
+      "brand": "Crispy Roots",
+      "stock": "in-stock",
+      "rating": 4.1,
+      "tags": ["baked", "natural", "crunchy"]
+    },
+    {
+      "id": "p029",
+      "name": "Coconut Yogurt",
+      "category": "Dairy Products",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 120,
+      "price": 246,
+      "weight": "400g",
+      "description": "Dairy-free coconut yogurt made with probiotics for a gut-friendly treat.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685840/coconut-yogurt_tq0ibg.jpg",
+      "ingredients": ["Coconut milk", "Probiotics", "Agar"],
+      "brand": "Coconut Dreams",
+      "stock": "in-stock",
+      "rating": 4.3,
+      "tags": ["dairy-free", "probiotics", "creamy"]
+    },
+    {
+      "id": "p030",
+      "name": "Egg Salad",
+      "category": "Fresh Prepared Diet Meals",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": ["Eggs", "Dairy"],
+      "calories": 320,
+      "price": 401,
+      "weight": "per serving",
+      "description": "Creamy egg salad blended with chives and Greek yogurt for a protein-rich meal.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919236/pexels-guvo59-28933152_ob7gnx.jpg",
+      "ingredients": ["Eggs", "Greek yogurt", "Chives", "Mustard"],
+      "brand": "NurtiFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.2,
+      "tags": ["protein-rich", "creamy", "satisfying"]
+    },
+    {
+      "id": "m007",
+      "name": "Paleo Chicken Salad",
+      "category": "Fresh Prepared Diet Meals",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 350,
+      "price": 647,
+      "weight": "per serving",
+      "description": "Grilled chicken with avocado, walnuts, and seasonal greens for a nutritious paleo-friendly meal.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918852/paleo-chicken-salad_rmdfww.jpg",
+      "ingredients": ["Chicken breast", "Avocado", "Mixed greens", "Walnuts"],
+      "brand": "Healthy Kitchen",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["paleo-approved", "protein", "fresh"]
+    },
+    {
+      "id": "m008",
+      "name": "Berry Keto Bowl",
+      "category": "Fresh Prepared Diet Meals",
+      "dietTypes": ["Keto-Friendly"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 420,
+      "price": 617,
+      "weight": "per serving",
+      "description": "Low-carb berry bowl with nuts and seeds, perfect for keto diets.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917403/pexels-janetrangdoan-1099681_lpjjd6.jpg",
+      "ingredients": ["Blueberries", "Raspberries", "Almonds", "Chia seeds"],
+      "brand": "NurtiFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.5,
+      "tags": ["low-carb", "antioxidants", "keto-friendly"]
+    },
+    {
+      "id": "m009",
+      "name": "Vitamin Boost Smoothie",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 180,
+      "price": 370,
+      "weight": "per serving",
+      "description": "Nutrient-rich smoothie packed with vitamins to support pregnancy health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919399/pregnancy-smoothie_a2jpk7.jpg",
+      "ingredients": ["Banana", "Spinach", "Orange juice", "Chia seeds"],
+      "brand": "NurtiFast Kitchen",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["vitamin-rich", "pregnancy-support", "energizing"]
+    },
+    {
+      "id": "p031",
+      "name": "Pumpkin Seeds",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Keto-Friendly", "Paleo"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 560,
+      "price": 246,
+      "weight": "200g",
+      "description": "Roasted and lightly salted pumpkin seeds, rich in minerals.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919485/snack-6852174_640_ghjluy.jpg",
+      "ingredients": ["Pumpkin seeds"],
+      "brand": "Nature's Crunch",
+      "stock": "in-stock",
+      "rating": 4.2,
+      "tags": ["roasted", "zinc", "magnesium"]
+    },
+    {
+      "id": "p032",
+      "name": "Sweet Corn",
+      "category": "Fresh Vegetables",
+      "dietTypes": ["Plant-Based", "Balanced Low-Carb"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 86,
+      "price": 72,
+      "weight": "2 pieces",
+      "description": "Freshly boiled sweet corn, naturally sweet and juicy.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685838/sweet-corn_w0z9du.jpg",
+      "ingredients": ["Sweet corn"],
+      "brand": "Fresh Garden",
+      "stock": "in-stock",
+      "rating": 4.0,
+      "tags": ["sweet", "fresh", "versatile"]
+    },
+    {
+      "id": "p050",
+      "name": "Grilled Chicken Breast",
+      "category": "Frozen Prepared Diet Meals",
+      "dietTypes": ["Keto-Friendly", "Paleo"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 165,
+      "price": 401,
+      "weight": "250g",
+      "description": "Juicy grilled chicken breast without skin.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685843/grilled-chicken_rzuqz8.jpg",
+      "ingredients": ["Chicken breast", "Olive oil", "Salt", "Pepper"],
+      "brand": "Farm Fresh",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["lean", "grilled", "protein"]
+    },
+    {
+      "id": "p051",
+      "name": "Salad",
+      "category": "Fresh Prepared Diet Meals",
+      "dietTypes": ["Keto-Friendly", "Paleo"],
+      "medicalConditions": ["Diabetes", "Pregnancy Nutrition", "Hypertension"],
+      "allergens": [],
+      "calories": 165,
+      "price": 55.0,
+      "weight": "250g",
+      "description": "Fresh and healthy keto-friendly salad with tomatoes and premium olive oil, perfectly seasoned for a low-calorie diabetic diet.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688140/Nutrition_Bowl_ywmdyt.jpg",
+      "ingredients": [
+        "Fresh Tomato",
+        "Extra Virgin Olive Oil",
+        "Sea Salt",
+        "Black Pepper"
+      ],
+      "brand": "Health kitchen",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": [
+        "heart-healthy",
+        "hydrating",
+        "gluten-free",
+        "low-calorie",
+        "fresh"
+      ]
+    },
+    {
+      "id": "p052",
+      "name": "Vegan Chocolate Chip Cookies",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Plant-Based"],
+      "medicalConditions": [],
+      "allergens": ["Gluten", "Soy"],
+      "calories": 210,
+      "price": 100,
+      "weight": "150g",
+      "description": "Delicious plant-based cookies made with dark chocolate chips and natural sweeteners.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/vegan-cookies_ozbvya.jpg",
+      "ingredients": [
+        "Whole wheat flour",
+        "Coconut oil",
+        "Brown sugar",
+        "Dark chocolate chips",
+        "Vanilla extract",
+        "Baking soda",
+        "Salt"
+      ],
+      "brand": "Nani's bakery",
+      "stock": "in-stock",
+      "rating": 4.5,
+      "tags": ["vegan", "chocolate", "snack", "dairy-free"]
+    },
+    {
+      "id": "p053",
+      "name": "Gluten-Free Brownies",
+      "category": "Healthy Desserts",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": ["Eggs", "Dairy"],
+      "calories": 250,
+      "price": 65,
+      "weight": "120g",
+      "description": "Rich and fudgy brownies made with almond flour and dark chocolate, suitable for gluten-sensitive and diabetic diets.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685842/gluten-free-brownies_tx6jxt.jpg",
+      "ingredients": [
+        "Almond flour",
+        "Cocoa powder",
+        "Eggs",
+        "Butter",
+        "Brown sugar substitute",
+        "Vanilla extract",
+        "Dark chocolate"
+      ],
+      "brand": "Wholesome Bakes",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["gluten-free", "diabetic-friendly", "low-carb", "chocolate"]
+    },
+    {
+      "id": "p054",
+      "name": "Cottage Cheese",
+      "category": "Dairy Products",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": ["Iron-Deficiency Anemia", "Pregnancy Nutrition"],
+      "allergens": ["Dairy", "Lactose"],
+      "calories": 98,
+      "price": 35,
+      "weight": "200g",
+      "description": "High-protein, low-fat cottage cheese ideal for a balanced low-carb diet and suitable for pregnant women and anemia support.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754920502/pexels-karolina-grabowska-4198140_or8yds.jpg",
+      "ingredients": ["Cottage cheese", "Salt", "Milk enzymes"],
+      "brand": "Healthy Dairy Co.",
+      "stock": "in-stock",
+      "rating": 4.3,
+      "tags": ["high-protein", "low-fat", "calcium-rich", "dairy"]
+    },
+    {
+      "id": "p055",
+      "name": "Dark Chocolate",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Paleo", "Balanced Low-Carb"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": [],
+      "calories": 170,
+      "price": 40,
+      "weight": "100g",
+      "description": "Rich, low-sugar dark chocolate with a high cocoa content, perfect for diabetic-friendly and low-carb diets.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917358/chocolate-968457_640_iczacl.jpg",
+      "ingredients": [
+        "Cocoa mass",
+        "Cocoa butter",
+        "Natural sweetener",
+        "Vanilla extract"
+      ],
+      "brand": "PureCacao",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"]
+    },
+    {
+      "id": "p200",
+      "name": "Cold-Pressed Green Detox Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["High Cholesterol", "Hypertension"],
+      "allergens": [],
+      "calories": 90,
+      "price": 55,
+      "weight": "300ml",
+      "description": "A refreshing blend of cucumber, kale, celery, green apple, and lemon to support heart health and detoxification.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917331/smoothie-3696961_640_jmupuz.jpg",
+      "ingredients": [
+        "Cucumber",
+        "Kale",
+        "Celery",
+        "Green apple",
+        "Lemon juice"
+      ],
+      "brand": "Nature Press",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["detox", "low-calorie", "heart-healthy"]
+    },
+    {
+      "id": "p201",
+      "name": "Iron Boost Beetroot Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": ["Iron-Deficiency Anemia", "Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 110,
+      "price": 50,
+      "weight": "300ml",
+      "description": "Rich beetroot juice with apple and ginger to naturally boost iron levels and support prenatal health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754923277/smoothie-1578240_640_qccx1h.jpg",
+      "ingredients": ["Beetroot", "Apple", "Ginger", "Lemon juice"],
+      "brand": "Vital Sip",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["iron-rich", "energy-boost", "folate"]
+    },
+    {
+      "id": "p202",
+      "name": "Low-Sugar Orange & Carrot Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Balanced Low-Carb", "Plant-Based"],
+      "medicalConditions": ["Diabetes", "Hypertension"],
+      "allergens": [],
+      "calories": 85,
+      "price": 45,
+      "weight": "300ml",
+      "description": "Vitamin C-rich juice made with fresh oranges and carrots, with no added sugar to support healthy blood pressure and blood sugar levels.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917465/pexels-polina-tankilevitch-4443449_sisetv.jpg",
+      "ingredients": ["Orange", "Carrot", "Lemon juice"],
+      "brand": "FreshGlow",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["vitamin-c", "immune-boost", "low-sugar"]
+    },
+    {
+      "id": "p203",
+      "name": "Tropical Immune Booster Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["High Cholesterol", "Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 95,
+      "price": 58,
+      "weight": "300ml",
+      "description": "A tropical mix of pineapple, mango, passion fruit, and turmeric to strengthen immunity and support heart health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754923601/cocktail-3408834_640_v6mqwn.jpg",
+      "ingredients": ["Pineapple", "Mango", "Passion fruit", "Turmeric"],
+      "brand": "Juice Paradise",
+      "stock": "in-stock",
+      "rating": 4.9,
+      "tags": ["immune-boost", "antioxidants", "tropical"]
+    },
+    {
+      "id": "p204",
+      "name": "Almond Protein Shake",
+      "category": "Fresh Juices",
+      "dietTypes": ["Keto-Friendly", "High-Protein"],
+      "medicalConditions": ["Diabetes", "High Cholesterol"],
+      "allergens": ["Tree Nuts"],
+      "calories": 160,
+      "price": 65,
+      "weight": "350ml",
+      "description": "Creamy almond-based protein shake with cocoa and stevia, perfect for low-carb diets and heart health.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754923822/pexels-polina-tankilevitch-3735192_fwj6xa.jpg",
+      "ingredients": ["Almond milk", "Whey protein", "Cocoa powder", "Stevia"],
+      "brand": "FitFuel",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["protein-rich", "low-carb", "dairy-free"]
+    },
+    {
+      "id": "p205",
+      "name": "Watermelon & Mint Hydration Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["Hypertension"],
+      "allergens": [],
+      "calories": 70,
+      "price": 42,
+      "weight": "300ml",
+      "description": "A refreshing hydrating juice made from watermelon and fresh mint, perfect for hot days and blood pressure support.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754923911/melon-2438503_640_xhbplv.jpg",
+      "ingredients": ["Watermelon", "Mint leaves", "Lime juice"],
+      "brand": "CoolSip",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["hydrating", "low-sodium", "refreshing"]
+    },
+    {
+      "id": "p056",
+      "name": "Fresh Orange Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Paleo"],
+      "medicalConditions": [
+        "Iron-Deficiency Anemia",
+        "Pregnant",
+        "Hypertension"
+      ],
+      "allergens": [],
+      "calories": 60,
+      "price": 55,
+      "weight": "250ml",
+      "description": "Freshly squeezed orange juice rich in vitamin C and folate.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917307/pexels-pixabay-158053_l5zsj8.jpg",
+      "ingredients": ["Fresh oranges"],
+      "brand": "Nature Press",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["vitamin-c", "immune-boost", "fresh"]
+    },
+
+    {
+      "id": "p058",
+      "name": "Green Detox Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Paleo", "Balanced low-carb"],
+      "medicalConditions": ["Diabetes", "Hypertension", "Pregnant"],
+      "allergens": [],
+      "calories": 45,
+      "price": 70,
+      "weight": "250ml",
+      "description": "Refreshing blend of cucumber, kale, and lemon for detox and hydration.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917305/pexels-padrinan-1412554_snhimd.jpg",
+      "ingredients": ["Cucumber", "Kale", "Lemon", "Mint"],
+      "brand": "Nature Press",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["detox", "hydrating", "low-calorie"]
+    },
+    {
+      "id": "p059",
+      "name": "Chia Pudding with fruits",
+      "category": "Healthy Desserts",
+      "dietTypes": ["Plant-Based", "Balanced low-carb"],
+      "medicalConditions": ["Diabetes", "Pregnant", "Hypertension"],
+      "allergens": [],
+      "calories": 150,
+      "price": 85,
+      "weight": "200g",
+      "description": "Creamy chia seed pudding topped with fresh berries and natural sweetener.",
+      "image": "/images/chia-berry-pudding.jpg",
+      "ingredients": [
+        "Chia seeds",
+        "Almond milk",
+        "Fruits",
+        "Natural sweetener"
+      ],
+      "brand": "Health Treats",
+      "stock": "in-stock",
+      "rating": 4.7,
+      "tags": ["omega-3", "fiber-rich", "low-sugar"]
+    },
+    {
+      "id": "p060",
+      "name": "Avocado Chocolate Mousse",
+      "category": "Healthy Desserts",
+      "dietTypes": ["Plant-Based", "Keto", "Paleo"],
+      "medicalConditions": ["Diabetes", "Hypertension"],
+      "allergens": [],
+      "calories": 180,
+      "price": 95,
+      "weight": "150g",
+      "description": "Silky chocolate mousse made with avocado and cocoa, naturally sweetened.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754924306/pexels-tomateoignons-4500379_zxajps.jpg",
+      "ingredients": [
+        "Avocado",
+        "Cocoa powder",
+        "Natural sweetener",
+        "Vanilla extract"
+      ],
+      "brand": "Health Treats",
+      "stock": "in-stock",
+      "rating": 4.8,
+      "tags": ["healthy-fats", "diabetic-friendly", "antioxidants"]
+    },
+    {
+      "id": "p061",
+      "name": "Almond Flour Lemon Cake",
+      "category": "Healthy Desserts",
+      "dietTypes": ["Balanced low-carb", "Paleo"],
+      "medicalConditions": ["Diabetes", "Pregnant"],
+      "allergens": ["Nuts", "Eggs"],
+      "calories": 220,
+      "price": 90,
+      "weight": "120g",
+      "description": "Moist lemon cake made with almond flour and natural sweetener for a low-carb treat.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754924474/lemon-cake-8274416_640_n2e1eh.jpg",
+      "ingredients": [
+        "Almond flour",
+        "Eggs",
+        "Lemon zest",
+        "Natural sweetener"
+      ],
+      "brand": "Wholesome Bakes",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["gluten-free", "low-carb", "citrus"]
     }
   ],
+
   "orders": [
     {
       "id": "1",
@@ -383,85 +1086,104 @@
     }
   ],
 
-  "filters":{
-      "Categories": [
-  {
-    "id": "1",
-    "name": "Healthy Bakery",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Bakery_uens06.jpg"
-  },
-  {
-    "id": "2",
-    "name": "Whole Grains & Cereals",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Whole_Grains_Cereals_pndauc.jpg"
-  },
-  {
-    "id": "3",
-    "name": "Meats & Poultry",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689360/Meats_Poultry_ys3wbk.jpg"
-  },
-  {
-    "id": "4",
-    "name": "Dairy Products",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689356/Dairy_Products_fmeeux.jpg"
-  },
-  {
-    "id": "5",
-    "name": "Fresh Vegetables",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Fresh_Vegetables_bjxn5w.jpg"
-  },
-  {
-    "id": "6",
-    "name": "Fresh Fruits",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Fresh_Fruits_nsjwx5.jpg"
-  },
-  {
-    "id": "7",
-    "name": "Healthy Snacks",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Snacks_i862ok.jpg"
-  },
-  {
-    "id": "8",
-    "name": "Prepared Diet Meals",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Prepared_Diet_Meals_nz5sbc.jpg"
-  }
-],
+  "filters": {
+    "Categories": [
+      {
+        "id": "1",
+        "name": "Healthy Bakery",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Bakery_uens06.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Whole Grains & Cereals",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918556/pexels-panditwiguna-18778270_yibhne.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Meats & Poultry",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689360/Meats_Poultry_ys3wbk.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Dairy Products",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689356/Dairy_Products_fmeeux.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Fresh Vegetables",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918727/vegetables-752153_640_uozvus.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Fresh Fruits",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Fresh_Fruits_nsjwx5.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Healthy Snacks",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689357/Healthy_Snacks_i862ok.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Fresh Prepared Diet Meals",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Prepared_Diet_Meals_nz5sbc.jpg"
+      },
+      {
+        "id": "9",
+        "name": "Frozen Prepared Diet Meals",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754925000/bhg-high-protein-frozen-meals-8655433-4c303cc1445e4b78a373719e215df5eb_jv06oa.jpg"
+      },
+      {
+        "id": "10",
+        "name": "Fresh Juices",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754924766/drink-1532300_640_byjsbc.jpg"
+      },
+      {
+        "id": "11",
+        "name": "Healthy Desserts",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754924671/dessert-1786311_640_xkclc5.jpg"
+      }
+    ],
 
+    "DietTypes": [
+      { "id": 1, "name": "Plant-Based" },
+      { "id": 2, "name": "Keto-Friendly" },
+      { "id": 3, "name": "Low FODMAP" },
+      { "id": 4, "name": "Balanced Low-Carb" },
+      { "id": 5, "name": "Paleo" },
+      { "id": 6, "name": "Vegan" },
+      { "id": 7, "name": "High-Protein" }
+    ],
 
-"DietTypes": [
-  { "id": 1, "name": "Plant-Based" },
-  { "id": 2, "name": "Keto-Friendly" },
-  { "id": 3, "name": "Low FODMAP" },
-  { "id": 4, "name": "Balanced Low-Carb" },
-  { "id": 5, "name": "Paleo" },
-  { "id": 6, "name": "Vegan" },
-  { "id": 7, "name": "High-Protein" },
-  { "id": 8, "name": "Gluten-Free" },
-  { "id": 9, "name": "Dairy-Free" }
-],
+    "MedicalConditions": [
+      { "id": 1, "name": "Hypertension" },
+      { "id": 2, "name": "Pregnancy Nutrition" },
+      { "id": 3, "name": "Diabetes" },
+      { "id": 4, "name": "Iron-Deficiency Anemia" },
+      { "id": 5, "name": "Favism" },
+      { "id": 6, "name": "High Cholesterol" }
+    ],
 
-"MedicalConditions": [
-  { "id": 1, "name": "Hypertension" },
-  { "id": 2, "name": "Pregnancy Nutrition" },
-  { "id": 3, "name": "Diabetes" },
-  { "id": 4, "name": "Iron-Deficiency Anemia" },
-  { "id": 5, "name": "Favism" },
-  { "id": 6, "name": "High Cholesterol" }
-],
-
-"Allergens": [
-  { "id": 1, "name": "Gluten" },
-  { "id": 2, "name": "Dairy" },
-  { "id": 3, "name": "Lactose" },
-  { "id": 4, "name": "Eggs" },
-  { "id": 5, "name": "Shellfish" },
-  { "id": 6, "name": "Tree Nuts" },
-  { "id": 7, "name": "Peanuts" },
-  { "id": 8, "name": "Soy" },
-  { "id": 9, "name": "Sesame" }
-]
+    "Allergens": [
+      { "id": 1, "name": "Gluten" },
+      { "id": 2, "name": "Dairy" },
+      { "id": 3, "name": "Lactose" },
+      { "id": 4, "name": "Eggs" },
+      { "id": 5, "name": "Shellfish" },
+      { "id": 6, "name": "Tree Nuts" },
+      { "id": 7, "name": "Peanuts" },
+      { "id": 8, "name": "Soy" },
+      { "id": 9, "name": "Sesame" }
+    ],
+    "CaloriesRange": [
+      { "label": "0 - 100 Calories", "min": 0, "max": 100 },
+      { "label": "101 - 200 Calories", "min": 101, "max": 200 },
+      { "label": "201 - 300 Calories", "min": 201, "max": 300 },
+      { "label": "301 - 400 Calories", "min": 301, "max": 400 },
+      { "label": "401 - 500 Calories", "min": 401, "max": 500 },
+      { "label": "500+ Calories", "min": 501, "max": null }
+    ]
   },
-
 
   "vendorRegistrations": [
     {
@@ -476,14 +1198,11 @@
         "phone": "+201234567890"
       },
       "productServiceDetails": {
-        "categories": [
-          "Ready meals",
-          "Packaged healthy snacks"
-        ],
+        "categories": ["Ready meals", "Packaged healthy snacks"],
         "meetsSpecialRequirements": "Yes",
         "providesNutritionalInfo": "Yes"
       },
-    "healthcertificatesLink": "",
+      "healthcertificatesLink": "",
       "agreeToTerms": true
     },
     {
@@ -498,10 +1217,7 @@
         "phone": "+201223344556"
       },
       "productServiceDetails": {
-        "categories": [
-          "Beverages",
-          "Supplements"
-        ],
+        "categories": ["Beverages", "Supplements"],
         "meetsSpecialRequirements": "No",
         "providesNutritionalInfo": "Yes"
       },
@@ -520,11 +1236,7 @@
         "phone": "+201198765432"
       },
       "productServiceDetails": {
-        "categories": [
-          "Ready meals",
-          "Beverages",
-          "Other"
-        ],
+        "categories": ["Ready meals", "Beverages", "Other"],
         "meetsSpecialRequirements": "Yes",
         "providesNutritionalInfo": "No"
       },
@@ -533,7 +1245,7 @@
     }
   ],
 
-  "favoritesProduct":[ 
+  "favoritesProduct": [
     {
       "id": "1",
       "name": "Whole Wheat Sourdough Bread",
@@ -598,7 +1310,7 @@
       "rating": 4.8,
       "tags": ["organic", "antioxidants", "superfruit"]
     },
- 
+
     {
       "id": "4",
       "name": "Wild Alaskan Salmon Fillet",
@@ -655,4 +1367,3 @@
     }
   ]
 }
-
