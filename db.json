@@ -54,7 +54,8 @@
       "brand": "HealthyHub Bakery",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["artisan", "fermented", "high-fiber"]
+      "tags": ["artisan", "fermented", "high-fiber"],
+      "reviews": []
     },
     {
       "id": "p002",
@@ -72,7 +73,15 @@
       "brand": "Pure Grains Co",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["certified-gf", "breakfast", "quick-prep"]
+      "tags": ["certified-gf", "breakfast", "quick-prep"],
+      "reviews": [
+        {
+          "userId": "1",
+          "username": "belal123",
+          "rating": 5,
+          "comment": "Very good Oatmeal"
+        }
+      ]
     },
     {
       "id": "p003",
@@ -94,33 +103,11 @@
       "brand": "Organic Valley",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["organic", "antioxidants", "superfruit"]
+      "tags": ["organic", "antioxidants", "superfruit"],
+      "reviews": []
     },
     {
       "id": "p004",
-      "name": "Almond Trail Mix",
-      "category": "Healthy Snacks",
-      "dietTypes": ["Keto-Friendly", "Plant-Based", "Balanced Low-Carb"],
-      "medicalConditions": [],
-      "allergens": ["Tree Nuts"],
-      "calories": 579,
-      "price": 135,
-      "weight": "200g",
-      "description": "A rich mix of almonds, seeds, and cranberries for an energizing snack.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/trail-mix_pzoqsd.jpg",
-      "ingredients": [
-        "Almonds",
-        "Cashews",
-        "Dried cranberries",
-        "Sunflower seeds"
-      ],
-      "brand": "Nature's Mix",
-      "stock": "low-stock",
-      "rating": 4.3,
-      "tags": ["energy", "portable", "raw"]
-    },
-    {
-      "id": "p005",
       "name": "Wild Alaskan Salmon Fillet",
       "category": "Meats & Poultry",
       "dietTypes": ["Paleo"],
@@ -130,15 +117,16 @@
       "price": 220,
       "weight": "250g",
       "description": "Premium wild-caught salmon rich in omega-3 and perfect for pregnancy and anemia support.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917323/salmon-5892659_640_menlif.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685850/salmon-fillet_sabuah.jpg",
       "ingredients": ["Wild Alaskan salmon"],
       "brand": "Pacific Fresh",
       "stock": "in-stock",
       "rating": 4.9,
-      "tags": ["omega-3", "wild-caught", "premium"]
+      "tags": ["omega-3", "wild-caught", "premium"],
+      "reviews": []
     },
     {
-      "id": "p006",
+      "id": "p005",
       "name": "Greek Yogurt Plain",
       "category": "Dairy Products",
       "dietTypes": ["Paleo"],
@@ -153,10 +141,11 @@
       "brand": "Juhayna",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["probiotics", "protein", "creamy"]
+      "tags": ["probiotics", "protein", "creamy"],
+      "reviews": []
     },
     {
-      "id": "p007",
+      "id": "p006",
       "name": "Brown Rice",
       "category": "Whole Grains & Cereals",
       "dietTypes": ["Plant-Based"],
@@ -171,102 +160,8 @@
       "brand": "Whole Earth",
       "stock": "in-stock",
       "rating": 4.4,
-      "tags": ["whole-grain", "fiber", "versatile"]
-    },
-    {
-      "id": "p008",
-      "name": "Vegan Cheese (Lactose-Free)",
-      "category": "Dairy Products",
-      "dietTypes": ["Plant-Based", "Keto-Friendly", "Paleo"],
-      "medicalConditions": ["Lactose Intolerance"],
-      "allergens": ["Tree Nuts"],
-      "calories": 250,
-      "price": 110,
-      "weight": "200g",
-      "description": "Lactose-free vegan cheese alternative made with cashews and coconut oil.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/vegan-cheese_v07qam.jpg",
-      "ingredients": ["Cashews", "Coconut oil", "Salt", "Yeast extract"],
-      "brand": "Plant Pure",
-      "stock": "in-stock",
-      "rating": 4.2,
-      "tags": ["dairy-free", "plant-based", "melts"]
-    },
-    {
-      "id": "p009",
-      "name": "Keto Beef Jerky",
-      "category": "Healthy Snacks",
-      "dietTypes": ["Keto-Friendly", "Paleo"],
-      "medicalConditions": [],
-      "allergens": [],
-      "calories": 116,
-      "price": 463,
-      "weight": "150g",
-      "description": "High-protein, low-carb beef jerky snack, perfect for keto diets.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688141/Keto_Beef_Jerky_hz2ahi.jpg",
-      "ingredients": ["Beef", "Salt", "Spices"],
-      "brand": "Keto Kitchen",
-      "stock": "in-stock",
-      "rating": 4.7,
-      "tags": ["high-protein", "low-carb", "portable"]
-    },
-    {
-      "id": "p010",
-      "name": "Balanced Low-Carb Nut Mix",
-      "category": "Healthy Snacks",
-      "dietTypes": ["Balanced Low-Carb"],
-      "medicalConditions": [],
-      "allergens": ["Tree Nuts"],
-      "calories": 560,
-      "price": 355,
-      "weight": "250g",
-      "description": "Premium low-carb nut mix for energy and balance.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685837/balanced-nuts_j2yhug.jpg",
-      "ingredients": ["Almonds", "Pecans", "Macadamia nuts"],
-      "brand": "Balance Nutrition",
-      "stock": "in-stock",
-      "rating": 4.4,
-      "tags": ["balanced", "premium-nuts", "low-carb"]
-    },
-    {
-      "id": "p011",
-      "name": "Favism-Safe",
-      "category": "Whole Grains & Cereals",
-      "dietTypes": ["Plant-Based", "Paleo"],
-      "medicalConditions": ["Favism"],
-      "allergens": [],
-      "calories": 130,
-      "price": 132,
-      "weight": "500g",
-      "description": "Naturally favism-safe lentils rich in protein and fiber.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685841/favism-beans_zfrjeb.jpg",
-      "ingredients": ["Lentils"],
-      "brand": "Safe Foods",
-      "stock": "in-stock",
-      "rating": 4.1,
-      "tags": ["favism-safe", "protein", "legumes"]
-    },
-    {
-      "id": "p012",
-      "name": "Low FODMAP Snack Bars",
-      "category": "Healthy Snacks",
-      "dietTypes": ["Low FODMAP"],
-      "medicalConditions": [],
-      "allergens": [],
-      "calories": 150,
-      "price": 246,
-      "weight": "6 × 40g",
-      "description": "Snack bars designed for digestive comfort and low FODMAP diets.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685845/low-fodmap-bars_wj1k9q.jpg",
-      "ingredients": [
-        "Pumpkin seeds",
-        "Sunflower seeds",
-        "Rice syrup",
-        "Brown rice crisp"
-      ],
-      "brand": "FODMAP Friendly",
-      "stock": "in-stock",
-      "rating": 4.0,
-      "tags": ["low-fodmap", "digestive-health", "portable"]
+      "tags": ["whole-grain", "fiber", "versatile"],
+      "reviews": []
     },
     {
       "id": "p013",
@@ -284,7 +179,8 @@
       "brand": "Mama Nutrition",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["pregnancy", "folic-acid", "vitamins"]
+      "tags": ["pregnancy", "folic-acid", "vitamins"],
+      "reviews": []
     },
 
     {
@@ -309,7 +205,8 @@
       "brand": "Fresh Garden",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["superfood", "complete-protein", "fresh"]
+      "tags": ["superfood", "complete-protein", "fresh"],
+      "reviews": []
     },
     {
       "id": "m001",
@@ -333,7 +230,8 @@
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["iron-rich", "complete-meal", "energizing"]
+      "tags": ["iron-rich", "complete-meal", "energizing"],
+      "reviews": []
     },
     {
       "id": "m002",
@@ -351,7 +249,8 @@
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
       "rating": 3.8,
-      "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"]
+      "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"],
+      "reviews": []
     },
     {
       "id": "m003",
@@ -375,7 +274,8 @@
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
       "rating": 3.5,
-      "tags": ["digestive-friendly", "comfort-food", "gentle"]
+      "tags": ["digestive-friendly", "comfort-food", "gentle"],
+      "reviews": []
     },
     {
       "id": "m004",
@@ -399,7 +299,8 @@
       "brand": "Healthy Kitchen",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["high-fat", "ketogenic", "premium"]
+      "tags": ["high-fat", "ketogenic", "premium"],
+      "reviews": []
     },
     {
       "id": "m006",
@@ -417,7 +318,8 @@
       "brand": "Healthy Kitchen",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["favism-safe", "hearty", "comfort-food"]
+      "tags": ["favism-safe", "hearty", "comfort-food"],
+      "reviews": []
     },
     {
       "id": "p016",
@@ -441,7 +343,8 @@
       "brand": "NutriFast Bakery",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["multigrain", "fiber-rich", "seeds"]
+      "tags": ["multigrain", "fiber-rich", "seeds"],
+      "reviews": []
     },
     {
       "id": "p017",
@@ -464,7 +367,8 @@
       "brand": "Pure Seeds",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["omega-3", "superfood", "creamy"]
+      "tags": ["omega-3", "superfood", "creamy"],
+      "reviews": []
     },
     {
       "id": "p020",
@@ -482,7 +386,8 @@
       "brand": "Hoda's Bakery",
       "stock": "in-stock",
       "rating": 4.1,
-      "tags": ["grain-free", "paleo", "crunchy"]
+      "tags": ["grain-free", "paleo", "crunchy"],
+      "reviews": []
     },
     {
       "id": "p021",
@@ -500,7 +405,8 @@
       "brand": "Prairie Fresh",
       "stock": "low-stock",
       "rating": 4.8,
-      "tags": ["grass-fed", "premium", "protein"]
+      "tags": ["grass-fed", "premium", "protein"],
+      "reviews": []
     },
     {
       "id": "p023",
@@ -518,7 +424,8 @@
       "brand": "Sweet Nature",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["sugar-free", "natural", "spread"]
+      "tags": ["sugar-free", "natural", "spread"],
+      "reviews": []
     },
     {
       "id": "p025",
@@ -536,7 +443,8 @@
       "brand": "Pure Nuts",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["natural", "no-additives", "high-protein"]
+      "tags": ["natural", "no-additives", "high-protein"],
+      "reviews": []
     },
     {
       "id": "p027",
@@ -554,7 +462,8 @@
       "brand": "Fresh Garden",
       "stock": "in-stock",
       "rating": 4.4,
-      "tags": ["iron-rich", "fresh", "leafy-greens"]
+      "tags": ["iron-rich", "fresh", "leafy-greens"],
+      "reviews": []
     },
     {
       "id": "p028",
@@ -572,7 +481,8 @@
       "brand": "Crispy Roots",
       "stock": "in-stock",
       "rating": 4.1,
-      "tags": ["baked", "natural", "crunchy"]
+      "tags": ["baked", "natural", "crunchy"],
+      "reviews": []
     },
     {
       "id": "p029",
@@ -590,7 +500,8 @@
       "brand": "Coconut Dreams",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["dairy-free", "probiotics", "creamy"]
+      "tags": ["dairy-free", "probiotics", "creamy"],
+      "reviews": []
     },
     {
       "id": "p030",
@@ -608,7 +519,8 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["protein-rich", "creamy", "satisfying"]
+      "tags": ["protein-rich", "creamy", "satisfying"],
+      "reviews": []
     },
     {
       "id": "m007",
@@ -626,7 +538,8 @@
       "brand": "Healthy Kitchen",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["paleo-approved", "protein", "fresh"]
+      "tags": ["paleo-approved", "protein", "fresh"],
+      "reviews": []
     },
     {
       "id": "m008",
@@ -644,7 +557,8 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["low-carb", "antioxidants", "keto-friendly"]
+      "tags": ["low-carb", "antioxidants", "keto-friendly"],
+      "reviews": []
     },
     {
       "id": "m009",
@@ -662,7 +576,8 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["vitamin-rich", "pregnancy-support", "energizing"]
+      "tags": ["vitamin-rich", "pregnancy-support", "energizing"],
+      "reviews": []
     },
     {
       "id": "p031",
@@ -680,7 +595,8 @@
       "brand": "Nature's Crunch",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["roasted", "zinc", "magnesium"]
+      "tags": ["roasted", "zinc", "magnesium"],
+      "reviews": []
     },
     {
       "id": "p032",
@@ -698,7 +614,8 @@
       "brand": "Fresh Garden",
       "stock": "in-stock",
       "rating": 4.0,
-      "tags": ["sweet", "fresh", "versatile"]
+      "tags": ["sweet", "fresh", "versatile"],
+      "reviews": []
     },
     {
       "id": "p050",
@@ -716,7 +633,8 @@
       "brand": "Farm Fresh",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["lean", "grilled", "protein"]
+      "tags": ["lean", "grilled", "protein"],
+      "reviews": []
     },
     {
       "id": "p051",
@@ -745,7 +663,8 @@
         "gluten-free",
         "low-calorie",
         "fresh"
-      ]
+      ],
+      "reviews": []
     },
     {
       "id": "p052",
@@ -771,7 +690,8 @@
       "brand": "Nani's bakery",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["vegan", "chocolate", "snack", "dairy-free"]
+      "tags": ["vegan", "chocolate", "snack", "dairy-free"],
+      "reviews": []
     },
     {
       "id": "p053",
@@ -797,7 +717,8 @@
       "brand": "Wholesome Bakes",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["gluten-free", "diabetic-friendly", "low-carb", "chocolate"]
+      "tags": ["gluten-free", "diabetic-friendly", "low-carb", "chocolate"],
+      "reviews": []
     },
     {
       "id": "p054",
@@ -815,7 +736,8 @@
       "brand": "Healthy Dairy Co.",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["high-protein", "low-fat", "calcium-rich", "dairy"]
+      "tags": ["high-protein", "low-fat", "calcium-rich", "dairy"],
+      "reviews": []
     },
     {
       "id": "p055",
@@ -838,7 +760,8 @@
       "brand": "PureCacao",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"]
+      "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"],
+      "reviews": []
     },
     {
       "id": "p200",
@@ -862,7 +785,8 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["detox", "low-calorie", "heart-healthy"]
+      "tags": ["detox", "low-calorie", "heart-healthy"],
+      "reviews": []
     },
     {
       "id": "p201",
@@ -880,7 +804,8 @@
       "brand": "Vital Sip",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["iron-rich", "energy-boost", "folate"]
+      "tags": ["iron-rich", "energy-boost", "folate"],
+      "reviews": []
     },
     {
       "id": "p202",
@@ -898,7 +823,8 @@
       "brand": "FreshGlow",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["vitamin-c", "immune-boost", "low-sugar"]
+      "tags": ["vitamin-c", "immune-boost", "low-sugar"],
+      "reviews": []
     },
     {
       "id": "p203",
@@ -916,7 +842,8 @@
       "brand": "Juice Paradise",
       "stock": "in-stock",
       "rating": 4.9,
-      "tags": ["immune-boost", "antioxidants", "tropical"]
+      "tags": ["immune-boost", "antioxidants", "tropical"],
+      "reviews": []
     },
     {
       "id": "p204",
@@ -934,7 +861,8 @@
       "brand": "FitFuel",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["protein-rich", "low-carb", "dairy-free"]
+      "tags": ["protein-rich", "low-carb", "dairy-free"],
+      "reviews": []
     },
     {
       "id": "p205",
@@ -952,7 +880,8 @@
       "brand": "CoolSip",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["hydrating", "low-sodium", "refreshing"]
+      "tags": ["hydrating", "low-sodium", "refreshing"],
+      "reviews": []
     },
     {
       "id": "p056",
@@ -974,7 +903,8 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["vitamin-c", "immune-boost", "fresh"]
+      "tags": ["vitamin-c", "immune-boost", "fresh"],
+      "reviews": []
     },
 
     {
@@ -993,7 +923,8 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["detox", "hydrating", "low-calorie"]
+      "tags": ["detox", "hydrating", "low-calorie"],
+      "reviews": []
     },
     {
       "id": "p059",
@@ -1006,7 +937,7 @@
       "price": 85,
       "weight": "200g",
       "description": "Creamy chia seed pudding topped with fresh berries and natural sweetener.",
-      "image": "/images/chia-berry-pudding.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754924086/pexels-roman-odintsov-5150558_ltz7db.jpg",
       "ingredients": [
         "Chia seeds",
         "Almond milk",
@@ -1016,7 +947,8 @@
       "brand": "Health Treats",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["omega-3", "fiber-rich", "low-sugar"]
+      "tags": ["omega-3", "fiber-rich", "low-sugar"],
+      "reviews": []
     },
     {
       "id": "p060",
@@ -1039,7 +971,8 @@
       "brand": "Health Treats",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["healthy-fats", "diabetic-friendly", "antioxidants"]
+      "tags": ["healthy-fats", "diabetic-friendly", "antioxidants"],
+      "reviews": []
     },
     {
       "id": "p061",
@@ -1062,7 +995,8 @@
       "brand": "Wholesome Bakes",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["gluten-free", "low-carb", "citrus"]
+      "tags": ["gluten-free", "low-carb", "citrus"],
+      "reviews": []
     }
   ],
 
@@ -1175,14 +1109,7 @@
       { "id": 8, "name": "Soy" },
       { "id": 9, "name": "Sesame" }
     ],
-    "CaloriesRange": [
-      { "label": "0 - 100 Calories", "min": 0, "max": 100 },
-      { "label": "101 - 200 Calories", "min": 101, "max": 200 },
-      { "label": "201 - 300 Calories", "min": 201, "max": 300 },
-      { "label": "301 - 400 Calories", "min": 301, "max": 400 },
-      { "label": "401 - 500 Calories", "min": 401, "max": 500 },
-      { "label": "500+ Calories", "min": 501, "max": null }
-    ]
+    "CaloriesRange": [0, 1000]
   },
 
   "vendorRegistrations": [
