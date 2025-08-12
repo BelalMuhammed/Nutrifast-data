@@ -1108,8 +1108,8 @@
       { "id": 7, "name": "Peanuts" },
       { "id": 8, "name": "Soy" },
       { "id": 9, "name": "Sesame" }
-    ],
-    "CaloriesRange": [0, 1000]
+    ]
+
   },
 
   "vendorRegistrations": [
