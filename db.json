@@ -79,7 +79,7 @@
           "userId": "1",
           "username": "belal123",
           "rating": 5,
-          "comment": "Very good Oatmeal"
+          "comment": "منتج ممتاز جدا!"
         }
       ]
     },
@@ -249,8 +249,7 @@
       "brand": "NutriFast Kitchen",
       "stock": "in-stock",
       "rating": 3.8,
-      "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"],
-      "reviews": []
+      "tags": ["pregnancy-optimized", "omega-3", "complete-nutrition"]
     },
     {
       "id": "m003",
@@ -318,8 +317,7 @@
       "brand": "Healthy Kitchen",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["favism-safe", "hearty", "comfort-food"],
-      "reviews": []
+      "tags": ["favism-safe", "hearty", "comfort-food"]
     },
     {
       "id": "p016",
@@ -343,8 +341,7 @@
       "brand": "NutriFast Bakery",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["multigrain", "fiber-rich", "seeds"],
-      "reviews": []
+      "tags": ["multigrain", "fiber-rich", "seeds"]
     },
     {
       "id": "p017",
@@ -367,8 +364,7 @@
       "brand": "Pure Seeds",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["omega-3", "superfood", "creamy"],
-      "reviews": []
+      "tags": ["omega-3", "superfood", "creamy"]
     },
     {
       "id": "p020",
@@ -386,8 +382,7 @@
       "brand": "Hoda's Bakery",
       "stock": "in-stock",
       "rating": 4.1,
-      "tags": ["grain-free", "paleo", "crunchy"],
-      "reviews": []
+      "tags": ["grain-free", "paleo", "crunchy"]
     },
     {
       "id": "p021",
@@ -405,8 +400,7 @@
       "brand": "Prairie Fresh",
       "stock": "low-stock",
       "rating": 4.8,
-      "tags": ["grass-fed", "premium", "protein"],
-      "reviews": []
+      "tags": ["grass-fed", "premium", "protein"]
     },
     {
       "id": "p023",
@@ -424,8 +418,7 @@
       "brand": "Sweet Nature",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["sugar-free", "natural", "spread"],
-      "reviews": []
+      "tags": ["sugar-free", "natural", "spread"]
     },
     {
       "id": "p025",
@@ -443,8 +436,7 @@
       "brand": "Pure Nuts",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["natural", "no-additives", "high-protein"],
-      "reviews": []
+      "tags": ["natural", "no-additives", "high-protein"]
     },
     {
       "id": "p027",
@@ -462,8 +454,7 @@
       "brand": "Fresh Garden",
       "stock": "in-stock",
       "rating": 4.4,
-      "tags": ["iron-rich", "fresh", "leafy-greens"],
-      "reviews": []
+      "tags": ["iron-rich", "fresh", "leafy-greens"]
     },
     {
       "id": "p028",
@@ -481,8 +472,7 @@
       "brand": "Crispy Roots",
       "stock": "in-stock",
       "rating": 4.1,
-      "tags": ["baked", "natural", "crunchy"],
-      "reviews": []
+      "tags": ["baked", "natural", "crunchy"]
     },
     {
       "id": "p029",
@@ -500,8 +490,7 @@
       "brand": "Coconut Dreams",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["dairy-free", "probiotics", "creamy"],
-      "reviews": []
+      "tags": ["dairy-free", "probiotics", "creamy"]
     },
     {
       "id": "p030",
@@ -519,8 +508,7 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["protein-rich", "creamy", "satisfying"],
-      "reviews": []
+      "tags": ["protein-rich", "creamy", "satisfying"]
     },
     {
       "id": "m007",
@@ -538,8 +526,7 @@
       "brand": "Healthy Kitchen",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["paleo-approved", "protein", "fresh"],
-      "reviews": []
+      "tags": ["paleo-approved", "protein", "fresh"]
     },
     {
       "id": "m008",
@@ -557,8 +544,7 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["low-carb", "antioxidants", "keto-friendly"],
-      "reviews": []
+      "tags": ["low-carb", "antioxidants", "keto-friendly"]
     },
     {
       "id": "m009",
@@ -576,8 +562,7 @@
       "brand": "NurtiFast Kitchen",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["vitamin-rich", "pregnancy-support", "energizing"],
-      "reviews": []
+      "tags": ["vitamin-rich", "pregnancy-support", "energizing"]
     },
     {
       "id": "p031",
@@ -595,8 +580,7 @@
       "brand": "Nature's Crunch",
       "stock": "in-stock",
       "rating": 4.2,
-      "tags": ["roasted", "zinc", "magnesium"],
-      "reviews": []
+      "tags": ["roasted", "zinc", "magnesium"]
     },
     {
       "id": "p032",
@@ -614,8 +598,7 @@
       "brand": "Fresh Garden",
       "stock": "in-stock",
       "rating": 4.0,
-      "tags": ["sweet", "fresh", "versatile"],
-      "reviews": []
+      "tags": ["sweet", "fresh", "versatile"]
     },
     {
       "id": "p050",
@@ -633,8 +616,7 @@
       "brand": "Farm Fresh",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["lean", "grilled", "protein"],
-      "reviews": []
+      "tags": ["lean", "grilled", "protein"]
     },
     {
       "id": "p051",
@@ -663,8 +645,7 @@
         "gluten-free",
         "low-calorie",
         "fresh"
-      ],
-      "reviews": []
+      ]
     },
     {
       "id": "p052",
@@ -690,8 +671,7 @@
       "brand": "Nani's bakery",
       "stock": "in-stock",
       "rating": 4.5,
-      "tags": ["vegan", "chocolate", "snack", "dairy-free"],
-      "reviews": []
+      "tags": ["vegan", "chocolate", "snack", "dairy-free"]
     },
     {
       "id": "p053",
@@ -717,8 +697,7 @@
       "brand": "Wholesome Bakes",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["gluten-free", "diabetic-friendly", "low-carb", "chocolate"],
-      "reviews": []
+      "tags": ["gluten-free", "diabetic-friendly", "low-carb", "chocolate"]
     },
     {
       "id": "p054",
@@ -736,8 +715,7 @@
       "brand": "Healthy Dairy Co.",
       "stock": "in-stock",
       "rating": 4.3,
-      "tags": ["high-protein", "low-fat", "calcium-rich", "dairy"],
-      "reviews": []
+      "tags": ["high-protein", "low-fat", "calcium-rich", "dairy"]
     },
     {
       "id": "p055",
@@ -760,8 +738,7 @@
       "brand": "PureCacao",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"],
-      "reviews": []
+      "tags": ["diabetic-friendly", "low-sugar", "antioxidants", "chocolate"]
     },
     {
       "id": "p200",
@@ -785,8 +762,7 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["detox", "low-calorie", "heart-healthy"],
-      "reviews": []
+      "tags": ["detox", "low-calorie", "heart-healthy"]
     },
     {
       "id": "p201",
@@ -804,8 +780,7 @@
       "brand": "Vital Sip",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["iron-rich", "energy-boost", "folate"],
-      "reviews": []
+      "tags": ["iron-rich", "energy-boost", "folate"]
     },
     {
       "id": "p202",
@@ -823,8 +798,7 @@
       "brand": "FreshGlow",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["vitamin-c", "immune-boost", "low-sugar"],
-      "reviews": []
+      "tags": ["vitamin-c", "immune-boost", "low-sugar"]
     },
     {
       "id": "p203",
@@ -842,8 +816,7 @@
       "brand": "Juice Paradise",
       "stock": "in-stock",
       "rating": 4.9,
-      "tags": ["immune-boost", "antioxidants", "tropical"],
-      "reviews": []
+      "tags": ["immune-boost", "antioxidants", "tropical"]
     },
     {
       "id": "p204",
@@ -861,8 +834,7 @@
       "brand": "FitFuel",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["protein-rich", "low-carb", "dairy-free"],
-      "reviews": []
+      "tags": ["protein-rich", "low-carb", "dairy-free"]
     },
     {
       "id": "p205",
@@ -880,8 +852,7 @@
       "brand": "CoolSip",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["hydrating", "low-sodium", "refreshing"],
-      "reviews": []
+      "tags": ["hydrating", "low-sodium", "refreshing"]
     },
     {
       "id": "p056",
@@ -903,8 +874,7 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["vitamin-c", "immune-boost", "fresh"],
-      "reviews": []
+      "tags": ["vitamin-c", "immune-boost", "fresh"]
     },
 
     {
@@ -923,8 +893,7 @@
       "brand": "Nature Press",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["detox", "hydrating", "low-calorie"],
-      "reviews": []
+      "tags": ["detox", "hydrating", "low-calorie"]
     },
     {
       "id": "p059",
@@ -947,8 +916,7 @@
       "brand": "Health Treats",
       "stock": "in-stock",
       "rating": 4.7,
-      "tags": ["omega-3", "fiber-rich", "low-sugar"],
-      "reviews": []
+      "tags": ["omega-3", "fiber-rich", "low-sugar"]
     },
     {
       "id": "p060",
@@ -971,8 +939,7 @@
       "brand": "Health Treats",
       "stock": "in-stock",
       "rating": 4.8,
-      "tags": ["healthy-fats", "diabetic-friendly", "antioxidants"],
-      "reviews": []
+      "tags": ["healthy-fats", "diabetic-friendly", "antioxidants"]
     },
     {
       "id": "p061",
@@ -995,8 +962,7 @@
       "brand": "Wholesome Bakes",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["gluten-free", "low-carb", "citrus"],
-      "reviews": []
+      "tags": ["gluten-free", "low-carb", "citrus"]
     }
   ],
 
@@ -1109,7 +1075,6 @@
       { "id": 8, "name": "Soy" },
       { "id": 9, "name": "Sesame" }
     ]
-
   },
 
   "vendorRegistrations": [
