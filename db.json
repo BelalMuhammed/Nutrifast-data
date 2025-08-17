@@ -1139,90 +1139,7 @@
 
   "favoritesProduct": [
     {
-      "id": "1",
-      "name": "Whole Wheat Sourdough Bread",
-      "category": "Healthy Bakery",
-      "dietTypes": ["Plant-Based"],
-      "medicalConditions": ["High Cholesterol"],
-      "allergens": ["Gluten"],
-      "calories": 69,
-      "price": 55,
-      "weight": "500g",
-      "description": "Freshly baked whole wheat sourdough with natural fermentation, rich in fiber and great for heart health.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685851/sourdough-bread_ftojms.jpg",
-      "ingredients": [
-        "Whole wheat flour",
-        "Water",
-        "Salt",
-        "Yeast",
-        "Sourdough culture"
-      ],
-      "brand": "HealthyHub Bakery",
-      "stock": "in-stock",
-      "rating": 4.5,
-      "tags": ["artisan", "fermented", "high-fiber"]
-    },
-    {
-      "id": "2",
-      "name": "Gluten-Free Oatmeal",
-      "category": "Whole Grains & Cereals",
-      "dietTypes": ["Plant-Based", "Paleo"],
-      "medicalConditions": ["Celiac Disease"],
-      "allergens": [],
-      "calories": 150,
-      "price": 78,
-      "weight": "400g",
-      "description": "Hearty gluten-free oatmeal made for clean breakfasts and sensitive stomachs.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/gluten-free-oatmeal_pzt5on.jpg",
-      "ingredients": ["Gluten-free oats", "Salt"],
-      "brand": "Pure Grains Co",
-      "stock": "in-stock",
-      "rating": 4.7,
-      "tags": ["certified-gf", "breakfast", "quick-prep"]
-    },
-    {
-      "id": "3",
-      "name": "Organic Blueberries",
-      "category": "Fresh Fruits",
-      "dietTypes": ["Plant-Based", "Paleo"],
-      "medicalConditions": [
-        "Diabetes",
-        "Hypertension",
-        "Iron-Deficiency Anemia"
-      ],
-      "allergens": [],
-      "calories": 57,
-      "price": 85,
-      "weight": "125g",
-      "description": "Fresh organic blueberries, packed with antioxidants and vitamin C.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685838/blueberries_mg8fni.jpg",
-      "ingredients": ["Organic blueberries"],
-      "brand": "Organic Valley",
-      "stock": "in-stock",
-      "rating": 4.8,
-      "tags": ["organic", "antioxidants", "superfruit"]
-    },
-
-    {
-      "id": "4",
-      "name": "Wild Alaskan Salmon Fillet",
-      "category": "Meats & Poultry",
-      "dietTypes": ["Paleo"],
-      "medicalConditions": ["Iron-Deficiency Anemia", "Pregnancy Nutrition"],
-      "allergens": ["Fish"],
-      "calories": 142,
-      "price": 220,
-      "weight": "250g",
-      "description": "Premium wild-caught salmon rich in omega-3 and perfect for pregnancy and anemia support.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685850/salmon-fillet_sabuah.jpg",
-      "ingredients": ["Wild Alaskan salmon"],
-      "brand": "Pacific Fresh",
-      "stock": "in-stock",
-      "rating": 4.9,
-      "tags": ["omega-3", "wild-caught", "premium"]
-    },
-    {
-      "id": "5",
+      "id": "p005",
       "name": "Greek Yogurt Plain",
       "category": "Dairy Products",
       "dietTypes": ["Paleo"],
@@ -1237,26 +1154,138 @@
       "brand": "Juhayna",
       "stock": "in-stock",
       "rating": 4.6,
-      "tags": ["probiotics", "protein", "creamy"]
+      "tags": ["probiotics", "protein", "creamy"],
+      "reviews": []
     },
     {
-      "id": "6",
-      "name": "Brown Rice",
-      "category": "Whole Grains & Cereals",
-      "dietTypes": ["Plant-Based"],
+      "id": "p017",
+      "name": "Chia Seed Pudding",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
+      "medicalConditions": ["Pregnancy Nutrition"],
+      "allergens": [],
+      "calories": 200,
+      "price": 45,
+      "weight": "150g",
+      "description": "Creamy chia pudding with coconut milk, rich in omega-3 and fiber.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917355/chia-pudding_o5kkv7.jpg",
+      "ingredients": [
+        "Chia seeds",
+        "Coconut milk",
+        "Maple syrup",
+        "Mixed berries"
+      ],
+      "brand": "Pure Seeds",
+      "stock": "in-stock",
+      "rating": 4.6,
+      "tags": ["omega-3", "superfood", "creamy"]
+    },
+    {
+      "id": "p020",
+      "name": "Granola Bar",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Paleo"],
+      "medicalConditions": ["Favism"],
+      "allergens": ["Tree Nuts"],
+      "calories": 240,
+      "price": 200,
+      "weight": "350g",
+      "description": "Grain-free paleo granola made with a crunchy mix of nuts and seeds.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/granola-bar_m7kxtu.jpg",
+      "ingredients": ["Almonds", "Sunflower seeds", "Pumpkin seeds", "Honey"],
+      "brand": "Hoda's Bakery",
+      "stock": "in-stock",
+      "rating": 4.1,
+      "tags": ["grain-free", "paleo", "crunchy"]
+    },
+    {
+      "id": "p021",
+      "name": "Beef Steak",
+      "category": "Meats & Poultry",
+      "dietTypes": ["Paleo", "Keto-Friendly"],
+      "medicalConditions": [],
+      "allergens": [],
+      "calories": 300,
+      "price": 300,
+      "weight": "300g",
+      "description": "Premium grass-fed beef steak, rich in protein and flavor.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918791/beef-steak_odaeis.jpg",
+      "ingredients": ["Beef"],
+      "brand": "Prairie Fresh",
+      "stock": "low-stock",
+      "rating": 4.8,
+      "tags": ["grass-fed", "premium", "protein"]
+    },
+    {
+      "id": "p023",
+      "name": "Strawberry Jam (No Sugar)",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Plant-Based", "Low FODMAP"],
       "medicalConditions": ["Diabetes"],
       "allergens": [],
-      "calories": 111,
-      "price": 48,
-      "weight": "1kg",
-      "description": "High-fiber long grain brown rice, ideal for healthy digestion and sugar control.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685846/brown-rice_cqhjhb.jpg",
-      "ingredients": ["Brown rice"],
-      "brand": "Whole Earth",
+      "calories": 80,
+      "price": 80,
+      "weight": "250g",
+      "description": "Natural strawberry jam with no added sugar, perfect for guilt-free spreads.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685836/strawberry-jam_hrvw2j.jpg",
+      "ingredients": ["Strawberries", "Pectin", "Water"],
+      "brand": "Sweet Nature",
       "stock": "in-stock",
-      "rating": 4.4,
-      "tags": ["whole-grain", "fiber", "versatile"]
+      "rating": 4.3,
+      "tags": ["sugar-free", "natural", "spread"]
     }
   ],
-  "messages":[]
+  "messages": [],
+  "vendorsLogo": [
+    {
+      "id": "A001",
+      "brandname": "Nature's Grace",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755436532/Nature_s_Grace_white_and_Green_3ebbcd5e-4cb0-4191-9e94-38db0642e1e0_190x_2x_u73vvs.webp"
+    },
+    {
+      "id": "A002",
+      "brandname": "Natural Organic Honey",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755439563/460440733_122095257254543027_8460479232745693498_n_tvbsr8.jpg"
+    },
+    {
+      "id": "A003",
+      "brandname": "Pure Butter ",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755439613/480441606_122103265712771370_4902194642714758072_n_tcixhd.jpg"
+    },
+    {
+      "id": "A004",
+      "brandname": "House of Diet",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755439790/399643163_769350181870881_1512461600315155075_n_o0ydvv.jpg"
+    },
+    {
+      "id": "A005",
+      "brandname": "Reef Bread Egypt",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755440134/266505798_112728884588216_6765558594158400318_n_uhm484.jpg"
+    },
+    {
+      "id": "A006",
+      "brandname": "Moomoo's",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755440234/339439072_248845504209186_5063588749966036286_n_d7uhzt.jpg"
+    },
+    {
+      "id": "A007",
+      "brandname": "AboHeraa",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755440396/481906733_656991630174140_7284076322328570901_n_csirwa.jpg"
+    },
+    {
+      "id": "A008",
+      "brandname": "Graviola ",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755440606/410097375_399832242413405_5140553491977199604_n_jd2ivd.jpg"
+    },
+    {
+      "id": "A009",
+      "brandname": "Smoothie Paradise",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755440866/463402337_964364369038866_3818181709055748796_n_oojooi.jpg"
+    },
+    {
+      "id": "A010",
+      "brandname": "Grandma's Bakery",
+      "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755441166/344332041_954871629001503_9041177722826061999_n_e3rbpi.jpg"
+    }
+  ]
 }
