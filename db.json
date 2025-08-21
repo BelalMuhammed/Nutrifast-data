@@ -43,7 +43,7 @@
       "price": 55,
       "weight": "500g",
       "description": "Freshly baked whole wheat sourdough with natural fermentation, rich in fiber and great for heart health.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685851/sourdough-bread_ftojms.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801843/pexels-markusspiske-105861_epywue.jpg",
       "ingredients": [
         "Whole wheat flour",
         "Water",
@@ -82,6 +82,26 @@
           "comment": "منتج ممتاز جدا!"
         }
       ]
+    },
+    {
+      "id": "201",
+      "name": "Raw Organic Honey",
+      "category": "Healthy Snacks",
+      "dietTypes": ["Balanced Low-Carb", "Natural Energy Boost"],
+      "medicalConditions": ["Iron-Deficiency Anemia"],
+      "allergens": [],
+      "calories": 64,
+      "price": 200,
+      "weight": "250g",
+      "description": "Pure raw organic honey, rich in natural antioxidants, iron, and minerals, supporting anemia recovery and boosting energy during pregnancy.",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685845/honey-823614_640_u4zg3o.jpg",
+      "tags": [
+        "Iron-Rich",
+        "Natural Sweetener",
+        "Energy Boost",
+        "Pregnancy Safe"
+      ],
+      "ingredients": ["100% Raw Organic Honey"]
     },
     {
       "id": "p003",
@@ -500,7 +520,7 @@
       "medicalConditions": ["Pregnancy Nutrition"],
       "allergens": ["Eggs", "Dairy"],
       "calories": 320,
-      "price": 401,
+      "price": 40,
       "weight": "per serving",
       "description": "Creamy egg salad blended with chives and Greek yogurt for a protein-rich meal.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919236/pexels-guvo59-28933152_ob7gnx.jpg",
@@ -518,7 +538,7 @@
       "medicalConditions": ["Diabetes"],
       "allergens": [],
       "calories": 350,
-      "price": 647,
+      "price": 150,
       "weight": "per serving",
       "description": "Grilled chicken with avocado, walnuts, and seasonal greens for a nutritious paleo-friendly meal.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754918852/paleo-chicken-salad_rmdfww.jpg",
@@ -536,7 +556,7 @@
       "medicalConditions": [],
       "allergens": [],
       "calories": 420,
-      "price": 617,
+      "price": 200,
       "weight": "per serving",
       "description": "Low-carb berry bowl with nuts and seeds, perfect for keto diets.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754917403/pexels-janetrangdoan-1099681_lpjjd6.jpg",
@@ -554,7 +574,7 @@
       "medicalConditions": ["Pregnancy Nutrition"],
       "allergens": [],
       "calories": 180,
-      "price": 370,
+      "price": 80,
       "weight": "per serving",
       "description": "Nutrient-rich smoothie packed with vitamins to support pregnancy health.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919399/pregnancy-smoothie_a2jpk7.jpg",
@@ -572,7 +592,7 @@
       "medicalConditions": [],
       "allergens": [],
       "calories": 560,
-      "price": 246,
+      "price": 75,
       "weight": "200g",
       "description": "Roasted and lightly salted pumpkin seeds, rich in minerals.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754919485/snack-6852174_640_ghjluy.jpg",
@@ -608,7 +628,7 @@
       "medicalConditions": ["Diabetes"],
       "allergens": [],
       "calories": 165,
-      "price": 401,
+      "price": 300,
       "weight": "250g",
       "description": "Juicy grilled chicken breast without skin.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685843/grilled-chicken_rzuqz8.jpg",
@@ -626,7 +646,7 @@
       "medicalConditions": ["Diabetes", "Pregnancy Nutrition", "Hypertension"],
       "allergens": [],
       "calories": 165,
-      "price": 55.0,
+      "price": 55,
       "weight": "250g",
       "description": "Fresh and healthy keto-friendly salad with tomatoes and premium olive oil, perfectly seasoned for a low-calorie diabetic diet.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754688140/Nutrition_Bowl_ywmdyt.jpg",
@@ -963,186 +983,123 @@
       "stock": "in-stock",
       "rating": 4.6,
       "tags": ["gluten-free", "low-carb", "citrus"]
-    }, {
-    "id": "1079",
-    "name": "Grilled Fish with sweet potato",
-    "category": "Fresh Diet Meals",
-    "dietTypes": [
-      "Balanced Low-Carb"
-    ],
-    "medicalConditions": [
-      "Hypertension",
-      "High Cholesterol"
-    ],
-    "allergens": [
-      "Fish"
-    ],
-    "calories": "300",
-    "price": 350,
-    "weight": "per serving",
-    "description": "Freshly grilled Nile fish fillet served with mashed sweet potato and steamed greens",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755794797/ai-generated-9097134_640_gsah9o.png",
-    "ingredients": [
-      "Nile Fish Fillet",
-      "Lemon Juice",
-      "Sea Salt (low-sodium)",
-      "Sweet Potato"
-    ],
-    "brand": "House of Diet",
-    "stock": "in-stock",
-    "rating": "4.3",
-    "tags": [
-      "Heart-Healthy",
-      "Low Sodium",
-      "Omega-3 Rich"
-    ]
-  },
-  {
-    "id": "153e",
-    "name": "Almond Flour Bread",
-    "category": "Healthy Bakery",
-    "dietTypes": [
-      "Keto-Friendly",
-      "Balanced Low-Carb"
-    ],
-    "medicalConditions": [
-      "Diabetes"
-    ],
-    "allergens": [
-      "Eggs",
-      "Tree Nuts"
-    ],
-    "calories": "90",
-    "price": "90",
-    "weight": "400g",
-    "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801844/pexels-magda-ehlers-pexels-1586947_jzjeig.jpg",
-    "ingredients": [
-      "Almond flour",
-      "Eggs",
-      "Butter",
-      "Salt",
-      "Baking powder"
-    ],
-    "brand": "Grandma's Bakery",
-    "stock": "in-stock",
-    "rating": "",
-    "tags": [
-      "Keto-Friendly",
-      "Gluten-Free",
-      "High Fiber"
-    ]
-  },
-  {
-    "id": "ea94",
-    "name": "Coconut Flour Muffins",
-    "category": "Healthy Bakery",
-    "dietTypes": [
-      "Keto-Friendly",
-      "Balanced Low-Carb"
-    ],
-    "medicalConditions": [
-      "Diabetes"
-    ],
-    "allergens": [
-      "Eggs"
-    ],
-    "calories": "95",
-    "price": 90,
-    "weight": "400g",
-    "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802177/pexels-castorlystock-3650436_ze6a6w.jpg",
-    "ingredients": [
-      "Eggs",
-      "Butter",
-      "Baking powder",
-      "Coconut flour",
-      "Stevia",
-      "Vanilla extract"
-    ],
-    "brand": "Grandma's Bakery",
-    "stock": "in-stock",
-    "rating": "",
-    "tags": [
-      "Keto-Friendly",
-      "Gluten-Free",
-      "Sugar-Free"
-    ],
-    "reviews": [
-      {
-        "comment": "Very Delicious",
-        "rating": 4,
-        "userId": "8061",
-        "username": "koka koko"
-      }
-    ]
-  },
-  {
-    "id": "64f2",
-    "name": "Keto Cheese Crackers",
-    "category": "Healthy Bakery",
-    "dietTypes": [
-      "Keto-Friendly",
-      "Balanced Low-Carb"
-    ],
-    "medicalConditions": [
-      "Diabetes"
-    ],
-    "allergens": [
-      "Dairy"
-    ],
-    "calories": "80",
-    "price": 50,
-    "weight": "150g",
-    "description": "Crispy cheese crackers baked with almond flour and cheddar cheese, perfect for keto snacking",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802306/pexels-eva-bronzini-5975473_cp3p2c.jpg",
-    "ingredients": [
-      "Eggs",
-      "Butter",
-      "Cheddar cheese",
-      "Almond flour"
-    ],
-    "brand": "Grandma's Bakery",
-    "stock": "in-stock",
-    "rating": "4.6",
-    "tags": [
-      "Keto-Friendly",
-      "Gluten-Free",
-      "Crunchy Snack"
-    ]
-  },
-  {
-    "id": "3465",
-    "name": "Beetroot & Apple Juice",
-    "category": "Fresh Juices",
-    "dietTypes": [
-      "Plant-Based",
-      "Vegan"
-    ],
-    "medicalConditions": [
-      "Pregnancy Nutrition",
-      "Iron-Deficiency Anemia"
-    ],
-    "allergens": [],
-    "calories": "150",
-    "price": "60",
-    "weight": "300ml",
-    "description": "A refreshing juice made with beetroot, apple, and lemon, known to boost iron absorption and blood health",
-    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755803466/pexels-roman-odintsov-4551975_xdajrn.jpg",
-    "ingredients": [
-      "Beetroot",
-      "Apple",
-      "Lemon"
-    ],
-    "brand": "Smoothie Paradise",
-    "stock": "in-stock",
-    "rating": "",
-    "tags": [
-      "Iron-Boosting",
-      "Vitamin C",
-      "Folate"
-    ]
-  }
+    },
+    {
+      "id": "1079",
+      "name": "Grilled Fish with sweet potato",
+      "category": "Fresh Diet Meals",
+      "dietTypes": ["Balanced Low-Carb"],
+      "medicalConditions": ["Hypertension", "High Cholesterol"],
+      "allergens": ["Fish"],
+      "calories": "300",
+      "price": 200,
+      "weight": "per serving",
+      "description": "Freshly grilled Nile fish fillet served with mashed sweet potato and steamed greens",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755794797/ai-generated-9097134_640_gsah9o.png",
+      "ingredients": [
+        "Nile Fish Fillet",
+        "Lemon Juice",
+        "Sea Salt (low-sodium)",
+        "Sweet Potato"
+      ],
+      "brand": "House of Diet",
+      "stock": "in-stock",
+      "rating": "4.3",
+      "tags": ["Heart-Healthy", "Low Sodium", "Omega-3 Rich"]
+    },
+    {
+      "id": "153e",
+      "name": "Almond Flour Bread",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Keto-Friendly", "Balanced Low-Carb"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": ["Eggs", "Tree Nuts"],
+      "calories": "90",
+      "price": "90",
+      "weight": "400g",
+      "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801844/pexels-magda-ehlers-pexels-1586947_jzjeig.jpg",
+      "ingredients": [
+        "Almond flour",
+        "Eggs",
+        "Butter",
+        "Salt",
+        "Baking powder"
+      ],
+      "brand": "Grandma's Bakery",
+      "stock": "in-stock",
+      "rating": "",
+      "tags": ["Keto-Friendly", "Gluten-Free", "High Fiber"]
+    },
+    {
+      "id": "ea94",
+      "name": "Coconut Flour Muffins",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Keto-Friendly", "Balanced Low-Carb"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": ["Eggs"],
+      "calories": "95",
+      "price": 90,
+      "weight": "400g",
+      "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802177/pexels-castorlystock-3650436_ze6a6w.jpg",
+      "ingredients": [
+        "Eggs",
+        "Butter",
+        "Baking powder",
+        "Coconut flour",
+        "Stevia",
+        "Vanilla extract"
+      ],
+      "brand": "Grandma's Bakery",
+      "stock": "in-stock",
+      "rating": "",
+      "tags": ["Keto-Friendly", "Gluten-Free", "Sugar-Free"],
+      "reviews": [
+        {
+          "comment": "Very Delicious",
+          "rating": 4,
+          "userId": "8061",
+          "username": "koka koko"
+        }
+      ]
+    },
+    {
+      "id": "64f2",
+      "name": "Keto Cheese Crackers",
+      "category": "Healthy Bakery",
+      "dietTypes": ["Keto-Friendly", "Balanced Low-Carb"],
+      "medicalConditions": ["Diabetes"],
+      "allergens": ["Dairy"],
+      "calories": "80",
+      "price": 50,
+      "weight": "150g",
+      "description": "Crispy cheese crackers baked with almond flour and cheddar cheese, perfect for keto snacking",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802306/pexels-eva-bronzini-5975473_cp3p2c.jpg",
+      "ingredients": ["Eggs", "Butter", "Cheddar cheese", "Almond flour"],
+      "brand": "Grandma's Bakery",
+      "stock": "in-stock",
+      "rating": "4.6",
+      "tags": ["Keto-Friendly", "Gluten-Free", "Crunchy Snack"]
+    },
+    {
+      "id": "3465",
+      "name": "Beetroot & Apple Juice",
+      "category": "Fresh Juices",
+      "dietTypes": ["Plant-Based", "Vegan"],
+      "medicalConditions": ["Pregnancy Nutrition", "Iron-Deficiency Anemia"],
+      "allergens": [],
+      "calories": "150",
+      "price": 60,
+      "weight": "300ml",
+      "description": "A refreshing juice made with beetroot, apple, and lemon, known to boost iron absorption and blood health",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755803466/pexels-roman-odintsov-4551975_xdajrn.jpg",
+      "ingredients": ["Beetroot", "Apple", "Lemon"],
+      "brand": "Smoothie Paradise",
+      "stock": "in-stock",
+      "rating": "",
+      "tags": ["Iron-Boosting", "Vitamin C", "Folate"]
+    }
   ],
 
   "orders": [
