@@ -1015,7 +1015,7 @@
       "medicalConditions": ["Diabetes"],
       "allergens": ["Eggs", "Tree Nuts"],
       "calories": "90",
-      "price": "90",
+      "price": 90,
       "weight": "400g",
       "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801844/pexels-magda-ehlers-pexels-1586947_jzjeig.jpg",
