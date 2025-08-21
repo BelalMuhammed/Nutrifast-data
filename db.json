@@ -963,7 +963,186 @@
       "stock": "in-stock",
       "rating": 4.6,
       "tags": ["gluten-free", "low-carb", "citrus"]
-    }
+    }, {
+    "id": "1079",
+    "name": "Grilled Fish with sweet potato",
+    "category": "Fresh Diet Meals",
+    "dietTypes": [
+      "Balanced Low-Carb"
+    ],
+    "medicalConditions": [
+      "Hypertension",
+      "High Cholesterol"
+    ],
+    "allergens": [
+      "Fish"
+    ],
+    "calories": "300",
+    "price": 350,
+    "weight": "per serving",
+    "description": "Freshly grilled Nile fish fillet served with mashed sweet potato and steamed greens",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755794797/ai-generated-9097134_640_gsah9o.png",
+    "ingredients": [
+      "Nile Fish Fillet",
+      "Lemon Juice",
+      "Sea Salt (low-sodium)",
+      "Sweet Potato"
+    ],
+    "brand": "House of Diet",
+    "stock": "in-stock",
+    "rating": "4.3",
+    "tags": [
+      "Heart-Healthy",
+      "Low Sodium",
+      "Omega-3 Rich"
+    ]
+  },
+  {
+    "id": "153e",
+    "name": "Almond Flour Bread",
+    "category": "Healthy Bakery",
+    "dietTypes": [
+      "Keto-Friendly",
+      "Balanced Low-Carb"
+    ],
+    "medicalConditions": [
+      "Diabetes"
+    ],
+    "allergens": [
+      "Eggs",
+      "Tree Nuts"
+    ],
+    "calories": "90",
+    "price": "90",
+    "weight": "400g",
+    "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801844/pexels-magda-ehlers-pexels-1586947_jzjeig.jpg",
+    "ingredients": [
+      "Almond flour",
+      "Eggs",
+      "Butter",
+      "Salt",
+      "Baking powder"
+    ],
+    "brand": "Grandma's Bakery",
+    "stock": "in-stock",
+    "rating": "",
+    "tags": [
+      "Keto-Friendly",
+      "Gluten-Free",
+      "High Fiber"
+    ]
+  },
+  {
+    "id": "ea94",
+    "name": "Coconut Flour Muffins",
+    "category": "Healthy Bakery",
+    "dietTypes": [
+      "Keto-Friendly",
+      "Balanced Low-Carb"
+    ],
+    "medicalConditions": [
+      "Diabetes"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "calories": "95",
+    "price": 90,
+    "weight": "400g",
+    "description": "Soft and fluffy bread made with almond flour, perfect for keto sandwiches",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802177/pexels-castorlystock-3650436_ze6a6w.jpg",
+    "ingredients": [
+      "Eggs",
+      "Butter",
+      "Baking powder",
+      "Coconut flour",
+      "Stevia",
+      "Vanilla extract"
+    ],
+    "brand": "Grandma's Bakery",
+    "stock": "in-stock",
+    "rating": "",
+    "tags": [
+      "Keto-Friendly",
+      "Gluten-Free",
+      "Sugar-Free"
+    ],
+    "reviews": [
+      {
+        "comment": "Very Delicious",
+        "rating": 4,
+        "userId": "8061",
+        "username": "koka koko"
+      }
+    ]
+  },
+  {
+    "id": "64f2",
+    "name": "Keto Cheese Crackers",
+    "category": "Healthy Bakery",
+    "dietTypes": [
+      "Keto-Friendly",
+      "Balanced Low-Carb"
+    ],
+    "medicalConditions": [
+      "Diabetes"
+    ],
+    "allergens": [
+      "Dairy"
+    ],
+    "calories": "80",
+    "price": 50,
+    "weight": "150g",
+    "description": "Crispy cheese crackers baked with almond flour and cheddar cheese, perfect for keto snacking",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755802306/pexels-eva-bronzini-5975473_cp3p2c.jpg",
+    "ingredients": [
+      "Eggs",
+      "Butter",
+      "Cheddar cheese",
+      "Almond flour"
+    ],
+    "brand": "Grandma's Bakery",
+    "stock": "in-stock",
+    "rating": "4.6",
+    "tags": [
+      "Keto-Friendly",
+      "Gluten-Free",
+      "Crunchy Snack"
+    ]
+  },
+  {
+    "id": "3465",
+    "name": "Beetroot & Apple Juice",
+    "category": "Fresh Juices",
+    "dietTypes": [
+      "Plant-Based",
+      "Vegan"
+    ],
+    "medicalConditions": [
+      "Pregnancy Nutrition",
+      "Iron-Deficiency Anemia"
+    ],
+    "allergens": [],
+    "calories": "150",
+    "price": "60",
+    "weight": "300ml",
+    "description": "A refreshing juice made with beetroot, apple, and lemon, known to boost iron absorption and blood health",
+    "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755803466/pexels-roman-odintsov-4551975_xdajrn.jpg",
+    "ingredients": [
+      "Beetroot",
+      "Apple",
+      "Lemon"
+    ],
+    "brand": "Smoothie Paradise",
+    "stock": "in-stock",
+    "rating": "",
+    "tags": [
+      "Iron-Boosting",
+      "Vitamin C",
+      "Folate"
+    ]
+  }
   ],
 
   "orders": [
@@ -1073,7 +1252,8 @@
       { "id": 6, "name": "Tree Nuts" },
       { "id": 7, "name": "Peanuts" },
       { "id": 8, "name": "Soy" },
-      { "id": 9, "name": "Sesame" }
+      { "id": 9, "name": "Fish" },
+      { "id": 10, "name": "Sesame" }
     ]
   },
 
