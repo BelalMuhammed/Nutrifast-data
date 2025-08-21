@@ -166,7 +166,7 @@
     {
       "id": "p013",
       "name": "Pregnancy Multivitamin Smoothie",
-      "category": "Frozen Prepared Diet Meals",
+      "category": "Frozen Diet Meals",
       "dietTypes": ["Plant-Based"],
       "medicalConditions": ["Pregnancy Nutrition"],
       "allergens": [],
@@ -186,7 +186,7 @@
     {
       "id": "p015",
       "name": "Quinoa Power Salad",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Plant-Based"],
       "medicalConditions": [],
       "allergens": [],
@@ -211,7 +211,7 @@
     {
       "id": "m001",
       "name": "Spinach Power Bowl",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Plant-Based", "Keto-Friendly"],
       "medicalConditions": ["Iron-Deficiency Anemia", "Hypertension"],
       "allergens": [],
@@ -236,7 +236,7 @@
     {
       "id": "m002",
       "name": "Pregnancy Nutrition Bowl",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": [],
       "medicalConditions": ["Pregnancy Nutrition", "Iron-Deficiency Anemia"],
       "allergens": ["Fish"],
@@ -254,7 +254,7 @@
     {
       "id": "m003",
       "name": "Low FODMAP Comfort Bowl",
-      "category": "Frozen Prepared Diet Meals",
+      "category": "Frozen Diet Meals",
       "dietTypes": ["Low FODMAP"],
       "medicalConditions": [],
       "allergens": [],
@@ -279,7 +279,7 @@
     {
       "id": "m004",
       "name": "Keto Fat Bomb Bowl",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Keto-Friendly"],
       "medicalConditions": [],
       "allergens": ["Fish", "Tree Nuts"],
@@ -304,7 +304,7 @@
     {
       "id": "m006",
       "name": "Favism Safe Stew",
-      "category": "Frozen Prepared Diet Meals frozen",
+      "category": "Frozen Diet Meals frozen",
       "dietTypes": ["Plant-Based"],
       "medicalConditions": ["Favism"],
       "allergens": [],
@@ -495,7 +495,7 @@
     {
       "id": "p030",
       "name": "Egg Salad",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Balanced Low-Carb"],
       "medicalConditions": ["Pregnancy Nutrition"],
       "allergens": ["Eggs", "Dairy"],
@@ -513,7 +513,7 @@
     {
       "id": "m007",
       "name": "Paleo Chicken Salad",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Paleo"],
       "medicalConditions": ["Diabetes"],
       "allergens": [],
@@ -531,7 +531,7 @@
     {
       "id": "m008",
       "name": "Berry Keto Bowl",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Keto-Friendly"],
       "medicalConditions": [],
       "allergens": [],
@@ -603,7 +603,7 @@
     {
       "id": "p050",
       "name": "Grilled Chicken Breast",
-      "category": "Frozen Prepared Diet Meals",
+      "category": "Frozen Diet Meals",
       "dietTypes": ["Keto-Friendly", "Paleo"],
       "medicalConditions": ["Diabetes"],
       "allergens": [],
@@ -621,7 +621,7 @@
     {
       "id": "p051",
       "name": "Salad",
-      "category": "Fresh Prepared Diet Meals",
+      "category": "Fresh Diet Meals",
       "dietTypes": ["Keto-Friendly", "Paleo"],
       "medicalConditions": ["Diabetes", "Pregnancy Nutrition", "Hypertension"],
       "allergens": [],
@@ -1025,12 +1025,12 @@
       },
       {
         "id": "8",
-        "name": "Fresh Prepared Diet Meals",
+        "name": "Fresh Diet Meals",
         "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754689361/Prepared_Diet_Meals_nz5sbc.jpg"
       },
       {
         "id": "9",
-        "name": "Frozen Prepared Diet Meals",
+        "name": "Frozen Diet Meals",
         "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754925000/bhg-high-protein-frozen-meals-8655433-4c303cc1445e4b78a373719e215df5eb_jv06oa.jpg"
       },
       {
