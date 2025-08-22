@@ -1424,5 +1424,7 @@
       "brandname": "Grandma's Bakery",
       "logo": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755441166/344332041_954871629001503_9041177722826061999_n_e3rbpi.jpg"
     }
-  ]
+  ],
+  "cart": [],
+  "wishlist": []
 }
