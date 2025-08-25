@@ -1248,23 +1248,146 @@
     }
   ],
   "orders": [
-    {
-      "id": "1",
-      "userId": "1",
-      "products": [
-        {
-          "productId": "1",
-          "quantity": 2
-        },
-        {
-          "productId": "2",
-          "quantity": 1
-        }
-      ],
-      "totalPrice": 440,
-      "status": "delivered",
-      "date": "2025-08-07"
-    }
+   {
+    "id": "6112",
+    "userId": "470a",
+    "orderNumber": "ORD-1755882870451",
+    "items": [
+      {
+        "id": "p001",
+        "name": "Whole Wheat Sourdough Bread",
+        "category": "Healthy Bakery",
+        "dietTypes": [
+          "Plant-Based"
+        ],
+        "medicalConditions": [
+          "High Cholesterol"
+        ],
+        "allergens": [
+          "Gluten"
+        ],
+        "calories": 69,
+        "price": 55,
+        "weight": "500g",
+        "description": "Freshly baked whole wheat sourdough with natural fermentation, rich in fiber and great for heart health.",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755801843/pexels-markusspiske-105861_epywue.jpg",
+        "ingredients": [
+          "Whole wheat flour",
+          "Water",
+          "Salt",
+          "Yeast",
+          "Sourdough culture"
+        ],
+        "brand": "HealthyHub Bakery",
+        "stock": "in-stock",
+        "rating": 4.5,
+        "tags": [
+          "artisan",
+          "fermented",
+          "high-fiber"
+        ],
+        "reviews": [
+          
+        ],
+        "quantity": 1,
+        "addedAt": "2025-08-22T17:14:03.404Z",
+        "status": "in-stock"
+      },
+      {
+        "id": "p002",
+        "name": "Gluten-Free Oatmeal",
+        "category": "Whole Grains & Cereals",
+        "dietTypes": [
+          "Plant-Based",
+          "Paleo"
+        ],
+        "medicalConditions": [
+          "Celiac Disease"
+        ],
+        "allergens": [
+          
+        ],
+        "calories": 150,
+        "price": 78,
+        "weight": "400g",
+        "description": "Hearty gluten-free oatmeal made for clean breakfasts and sensitive stomachs.",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685844/gluten-free-oatmeal_pzt5on.jpg",
+        "ingredients": [
+          "Gluten-free oats",
+          "Salt"
+        ],
+        "brand": "Pure Grains Co",
+        "stock": "in-stock",
+        "rating": 4.7,
+        "tags": [
+          "certified-gf",
+          "breakfast",
+          "quick-prep"
+        ],
+        "reviews": [
+          {
+            "userId": "1",
+            "username": "belal123",
+            "rating": 5,
+            "comment": "منتج ممتاز جدا!"
+          }
+        ],
+        "quantity": 1,
+        "addedAt": "2025-08-22T17:14:04.025Z",
+        "status": "in-stock"
+      },
+      {
+        "id": "201",
+        "name": "Raw Organic Honey",
+        "category": "Healthy Snacks",
+        "dietTypes": [
+          "Balanced Low-Carb",
+          "Natural Energy Boost"
+        ],
+        "medicalConditions": [
+          "Iron-Deficiency Anemia"
+        ],
+        "allergens": [
+          
+        ],
+        "calories": 64,
+        "price": 200,
+        "weight": "250g",
+        "description": "Pure raw organic honey, rich in natural antioxidants, iron, and minerals, supporting anemia recovery and boosting energy during pregnancy.",
+        "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685845/honey-823614_640_u4zg3o.jpg",
+        "tags": [
+          "Iron-Rich",
+          "Natural Sweetener",
+          "Energy Boost",
+          "Pregnancy Safe"
+        ],
+        "ingredients": [
+          "100% Raw Organic Honey"
+        ],
+        "quantity": 1,
+        "addedAt": "2025-08-22T17:14:04.773Z"
+      }
+    ],
+    "customer": {
+      "fullName": "shereen mohamed",
+      "email": "Shereen.khalafallah@gmail.com",
+      "phoneNumber": "01286324530"
+    },
+    "shippingAddress": {
+      "address": "38 st.eleskan",
+      "city": "قسم سيدي جابر",
+      "state": "الاسكندرية",
+      "zipCode": "12345"
+    },
+    "subtotal": "333.00",
+    "shipping": "0.00",
+    "discount": "0.00",
+    "total": "333.00",
+    "promoCode": null,
+    "status": "pending",
+    "date": "2025-08-22T17:14:30.451Z",
+    "orderType": "complete"
+  }
   ],
 
   "filters": {
@@ -1361,63 +1484,18 @@
   },
 
   "vendorRegistrations": [
-    {
-      "id": 1,
-      "businessName": "NutriFresh Foods",
-      "businessType": "Restaurant",
-      "websiteSocialLinks": "https://instagram.com/nutrifresh",
-      "businessAddress": "123 Healthy St, Alexandria, Egypt",
-      "contactDetails": {
-        "fullName": "Ahmed Ali",
-        "email": "ahmed.ali@example.com",
-        "phone": "+201234567890"
-      },
-      "productServiceDetails": {
-        "categories": ["Ready meals", "Packaged healthy snacks"],
-        "meetsSpecialRequirements": "Yes",
-        "providesNutritionalInfo": "Yes"
-      },
-      "healthcertificatesLink": "",
-      "agreeToTerms": true
-    },
-    {
-      "id": 2,
-      "businessName": "Green Bites",
-      "businessType": "Cafe",
-      "websiteSocialLinks": "https://facebook.com/greenbites",
-      "businessAddress": "45 Vegan Ave, Cairo, Egypt",
-      "contactDetails": {
-        "fullName": "Sara Youssef",
-        "email": "sara.y@example.com",
-        "phone": "+201223344556"
-      },
-      "productServiceDetails": {
-        "categories": ["Beverages", "Supplements"],
-        "meetsSpecialRequirements": "No",
-        "providesNutritionalInfo": "Yes"
-      },
-      "healthcertificatesLink": "",
-      "agreeToTerms": true
-    },
-    {
-      "id": 3,
-      "businessName": "Healthy Harvest",
-      "businessType": "Grocery Store",
-      "websiteSocialLinks": "https://healthyharvest.com",
-      "businessAddress": "78 Organic Rd, Giza, Egypt",
-      "contactDetails": {
-        "fullName": "Omar Hassan",
-        "email": "omar.h@example.com",
-        "phone": "+201198765432"
-      },
-      "productServiceDetails": {
-        "categories": ["Ready meals", "Beverages", "Other"],
-        "meetsSpecialRequirements": "Yes",
-        "providesNutritionalInfo": "No"
-      },
-      "healthcertificatesLink": "",
-      "agreeToTerms": true
-    }
+ {
+    "id": "0b2e",
+    "businessName": "non",
+    "businessType": "Healthy Bakery",
+    "firstName": "correct",
+    "lastName": "Muhammed",
+    "email": "belalhamo123@gmail.com",
+    "phone": "01204831601",
+    "businessAddress": "Sidi Bishr,Alexandria,Egypt",
+    "page": "https://nutrifast-data.up.railway.app/users",
+    "licenseUrl": "https://nutrifast-data.up.railway.app/users"
+  }
   ],
 
   "favoritesProduct": [
@@ -1518,7 +1596,32 @@
       "tags": ["sugar-free", "natural", "spread"]
     }
   ],
-  "messages": [],
+  "messages": [
+     {
+    "id": 1755961591338,
+    "name": "shereen mohamed",
+    "email": "shereenkhalafallah@yahoo.com",
+    "message": "dsdewgwefw",
+    "timestamp": "2025-08-23T15:06:31.338Z",
+    "status": "new"
+  },
+  {
+    "id": 1755967038562,
+    "name": "shereen mohamed",
+    "email": "shereenkhalafallah@yahoo.com",
+    "message": "daswawdwadwa",
+    "timestamp": "2025-08-23T16:37:18.562Z",
+    "status": "new"
+  },
+  {
+    "id": 1755980286743,
+    "name": "shereen mohamed",
+    "email": "Shereen.khalafallah@gmail.com",
+    "message": "gjgdkjghjghm",
+    "timestamp": "2025-08-23T20:18:06.743Z",
+    "status": "new"
+  }
+  ],
   "vendorsLogo": [
     {
       "id": "A001",
