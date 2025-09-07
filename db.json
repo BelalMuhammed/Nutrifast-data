@@ -101,7 +101,8 @@
         "Energy Boost",
         "Pregnancy Safe"
       ],
-      "ingredients": ["100% Raw Organic Honey"]
+      "ingredients": ["100% Raw Organic Honey"],
+      "rating":4.0
     },
     {
       "id": "p003",
@@ -633,7 +634,7 @@
       "description": "Juicy grilled chicken breast without skin.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1754685843/grilled-chicken_rzuqz8.jpg",
       "ingredients": ["Chicken breast", "Olive oil", "Salt", "Pepper"],
-      "brand": "Farm Fresh",
+      "brand": "DisHop",
       "stock": "in-stock",
       "rating": 4.6,
       "tags": ["lean", "grilled", "protein"]
@@ -1136,7 +1137,7 @@
       "weight": "500g",
       "description": "Thick sugar-free Greek yogurt, high in protein and probiotics, supports heart health and diabetic diets.",
       "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756126573/yogurt-1442034_640_cvhwez.jpg",
-      "tags": ["sugar-free", "probiotics", "protein-rich"],
+      "tags": ["Sugar-Free", "probiotics", "protein-rich"],
       "ingredients": ["Skimmed milk", "Active cultures"],
       "brand":"Healthy fresh milk",
       "rating":3.5
@@ -1170,7 +1171,7 @@
       "stock": "low-stock",
       "weight": "250g",
       "description": "Pure natural honey blended with roasted sesame and crunchy almonds, offering a delicious boost of protein and calcium for strong bones and overall health.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1755803466/pexels-roman-odintsov-4551975_xdajrn.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756129385/honey-5043708_640_vlxgcn.jpg",
       "rating": 4.2,
       "tags": [
         "Honey",
@@ -1187,15 +1188,16 @@
       "name": "Almond Milk (Unsweetened)",
       "category": "Dairy Products",
       "dietTypes": ["Vegan", "Plant-Based", "Low FODMAP", "Keto-Friendly"],
-      "medicalConditions": ["Hypertension", "High Cholesterol", "Diabetes"],
+      "medicalConditions": ["Hypertension", "High Cholesterol", "Diabetes","Lactose intolerance"
+],
       "allergens": ["Tree Nuts"],
       "calories": 40,
       "price": 65,
       "weight": "1L",
       "description": "Unsweetened almond milk, a plant-based alternative, low in calories and heart-healthy.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756127237/almond-milk-1623610_640_oelziv.jpg",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756129184/pexels-towfiqu-barbhuiya-3440682-11397572_cw9xah.jpg",
       "rating": 4.2,
-      "tags": ["vegan", "unsweetened", "cholesterol-friendly"],
+      "tags": ["vegan", "Sugar-Free", "cholesterol-friendly"],
       "ingredients": [
         "Almonds",
         "Filtered water",
@@ -1215,7 +1217,7 @@
       "stock": "in-stock",
       "weight": "150g",
       "description": "Soft cheese cubes fortified with calcium and vitamin B12, great for bone strength and anemia support.",
-      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756127358/food-3207531_640_vlti24.jpgs",
+      "image": "https://res.cloudinary.com/dahdq7qu0/image/upload/v1756127358/food-3207531_640_vlti24.jpg",
       "rating": 4.2,
       "tags": ["calcium-rich", "protein-rich"],
       "ingredients": ["Milk", "Salt", "Calcium supplement", "Vitamin B12"],
@@ -1224,9 +1226,9 @@
     {
       "id": "pw010",
       "name": "Almond Milk",
-      "category": "Dairy Alternatives",
+      "category": "Dairy Products",
       "dietTypes": ["Vegan", "Plant-Based", "Lactose-Free"],
-      "medicalConditions": ["Anemia", "Pregnancy", "Lactose Intolerance"],
+      "medicalConditions": ["Diabetes", "Lactose intolerance","Pregnancy Nutrition"],
       "allergens": ["Tree Nuts"],
       "calories": 30,
       "price": 75,
@@ -1243,7 +1245,7 @@
       "brand": "Healthy fresh milk",
       "stock": "low-stock",
       "rating": 4.9,
-      "tags": ["dairy-free", "calcium-rich", "vitamin-E"],
+      "tags": ["dairy-free", "calcium-rich", "vitamin-D"],
       "reviews": []
     }
   ],
